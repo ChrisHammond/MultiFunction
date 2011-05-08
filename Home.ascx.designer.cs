@@ -40,15 +40,6 @@ namespace Com.Christoc.MultiFunction {
         protected global::System.Web.UI.UserControl dnnNAV;
         
         /// <summary>
-        /// dnnLOGIN control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UserControl dnnLOGIN;
-        
-        /// <summary>
         /// dnnUSER control.
         /// </summary>
         /// <remarks>
@@ -56,6 +47,15 @@ namespace Com.Christoc.MultiFunction {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UserControl dnnUSER;
+        
+        /// <summary>
+        /// dnnLOGIN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UserControl dnnLOGIN;
         
         /// <summary>
         /// TopPane control.

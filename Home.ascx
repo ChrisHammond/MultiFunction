@@ -29,15 +29,12 @@
                 &nbsp;
                 <img src="<%=SkinPath %>/i/header_graphic.png" alt="<%= PortalSettings.PortalName %>" />
                 <div class="UserLogin">
-                    <dnn:login runat="server" id="dnnLOGIN" />
                     <dnn:user runat="server" id="dnnUSER" />
+                    <dnn:login runat="server" id="dnnLOGIN" />
                 </div>
             </div>
-             
         </div>
-
     </div>
-
     <div id="ContentWrapper">
         <div class="cp">
             <div id="DnnPanes">

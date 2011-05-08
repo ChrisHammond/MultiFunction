@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Edit.ascx.cs" Inherits="Com.Christoc.MultiFunction.Edit" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.UI.Skins" Assembly="DotNetNuke" %>
 <%@ Register TagPrefix="dnn" TagName="LOGO" Src="~/Admin/Skins/Logo.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
 <div id="BodyWrapper" class="Edit">
@@ -24,7 +26,11 @@
         <div class="page_header">
             <div class="cp">
                 &nbsp;
-                <img src="<%=SkinPath %>/i/header_graphic.png" alt="Natalie Hammond Dressage" />
+                <img src="<%=SkinPath %>/i/header_graphic.png" alt="<%= PortalSettings.PortalName %>" />
+                <div class="UserLogin">
+                    <dnn:user runat="server" id="dnnUSER" />
+                    <dnn:login runat="server" id="dnnLOGIN" />
+                </div>
             </div>
         </div>
     </div>

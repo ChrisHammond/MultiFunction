@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -54,7 +55,6 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BuildScripts\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +99,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BuildScripts\SkinPackage.targets" />
+    <None Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
+    <None Include="src_images\footer.psd" />
     <None Include="src_images\header.psd" />
     <None Include="src_images\header_graphic.psd" />
   </ItemGroup>
@@ -123,6 +126,15 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <Extension>zip</Extension>
+    <DNNFileName>MultiFunction</DNNFileName>
+    <PackageName>MultiFunction</PackageName>
+    <MSBuildCommunityTasksPath>$(MSBuildProjectDirectory)\BuildScripts</MSBuildCommunityTasksPath>
+  </PropertyGroup>
+  <Import Project="BuildScripts\SkinPackage.Targets" />
+  <Target Name="AfterBuild" DependsOnTargets="PackageSkin">
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
