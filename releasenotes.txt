@@ -1,0 +1,15 @@
+﻿<h3>Multifunction 1.0.0</h3>
+<p class="Contributor">
+    Chris Hammond <br />
+    <a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
+    <a href="http://www.christoc.com">http://www.christoc.com</a><br />
+</p>
+<hr/>
+<div class="License">
+    <h3>About the MultiFunction Skin and Container Package</h3>
+    <p class="Owner">
+        <b>Version 1.0.0</b><br /><br />
+    </p>
+    <p>This initial release of the skin and container package starts out very simply. You can use the INSTALL package to easily install the skin into production, or the SOURCE package to get the PSDs and make modifications to the package.</p>
+    
+</div>

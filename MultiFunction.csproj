@@ -31,7 +31,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>..\..\..\..\bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -63,10 +63,12 @@
     <Content Include="Edit.doctype.xml" />
     <Content Include="home.doctype.xml" />
     <Content Include="i\header_graphic.png" />
+    <Content Include="license.txt" />
     <Content Include="min\skin.chirp.css" />
     <Content Include="min\skin.min.css">
       <DependentUpon>skin.chirp.css</DependentUpon>
     </Content>
+    <Content Include="releasenotes.txt" />
     <Content Include="TwoColumn.ascx" />
     <Content Include="Home.ascx" />
     <Content Include="i\contentbg_rp.png" />
@@ -99,8 +101,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="BuildScripts\SkinPackage.targets" />
-    <None Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
+    <None Include="BuildScripts\SkinPackage.targets">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BuildScripts\MSBuild.Community.Tasks.Targets">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="multifunction.dnn" />
     <None Include="src_images\footer.psd" />
     <None Include="src_images\header.psd" />
     <None Include="src_images\header_graphic.psd" />
@@ -133,13 +140,7 @@
     <MSBuildCommunityTasksPath>$(MSBuildProjectDirectory)\BuildScripts</MSBuildCommunityTasksPath>
   </PropertyGroup>
   <Import Project="BuildScripts\SkinPackage.Targets" />
+  <Target Name="PackageSkin" DependsOnTargets="MoveContainer" />
   <Target Name="AfterBuild" DependsOnTargets="PackageSkin">
   </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

@@ -1,0 +1,81 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="1.0.0">
+      <friendlyName>MultiFunction</friendlyName>
+      <description>A DotNetNuke Skin using a common web layout with customizable CSS and PSDs.</description>
+      <owner>
+        <name>Chris Hammond</name>
+        <organization>Christoc.com</organization>
+        <url>www.christoc.com</url>
+        <email>skins@christoc.com</email>
+      </owner>
+      <license src="license.txt"></license>
+      <releaseNotes src="releasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">05.02.00</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/dnnsimplearticle</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>MultiFunction</skinName>
+            <basePath />
+            <skinFile>
+              <name>Home.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Home.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>Edit.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Edit.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>Twocolumn.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>TwoColumn.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>skin.css</name>
+            </skinFile>
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="1.0.0">
+      <friendlyName>MultiFunction</friendlyName>
+      <description>A DotNetNuke Skin using a common web layout with customizable CSS and PSDs.</description>
+      <owner>
+        <name>Chris Hammond</name>
+        <organization>Christoc.com</organization>
+        <url>www.christoc.com</url>
+        <email>skins@christoc.com</email>
+      </owner>
+      <license src="license.txt"></license>
+      <releaseNotes src="releasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">05.02.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>MultiFunction</containerName>
+            <containerFile>
+              <name>Main.ascx</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
