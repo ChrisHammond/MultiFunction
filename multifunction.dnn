@@ -17,38 +17,19 @@
       <components>
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/dnnsimplearticle</basePath>
+            <basePath>portals/_default/skins/MultiFunction</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
           </resourceFiles>
         </component>
-        <component type="Skin">
-          <skinFiles>
-            <skinName>MultiFunction</skinName>
-            <basePath />
-            <skinFile>
-              <name>Home.ascx</name>
-            </skinFile>
-            <skinFile>
-              <name>Home.doctype.xml</name>
-            </skinFile>
-            <skinFile>
-              <name>Edit.ascx</name>
-            </skinFile>
-            <skinFile>
-              <name>Edit.doctype.xml</name>
-            </skinFile>
-            <skinFile>
-              <name>Twocolumn.ascx</name>
-            </skinFile>
-            <skinFile>
-              <name>TwoColumn.doctype.xml</name>
-            </skinFile>
-            <skinFile>
-              <name>skin.css</name>
-            </skinFile>
-          </skinFiles>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <name>MultiFunction.dll</name>
+            </assembly>
+          </assemblies>
         </component>
       </components>
     </package>
@@ -75,7 +56,7 @@
             </containerFile>
           </containerFiles>
         </component>
-      </components>
+      </components> 
     </package>
   </packages>
 </dotnetnuke>

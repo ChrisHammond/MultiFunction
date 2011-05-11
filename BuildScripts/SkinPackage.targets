@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <!-- the following code runs whenever you build in Debug mode to copy the Container files to the proper location. -->
-  <Target Name="MoveContainer" Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <Target Name="MoveContainer" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <ItemGroup>
       <ContainerInclude Include="**\Containers\*.ascx" />
     </ItemGroup>
     <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="$(MSBuildProjectDirectory)\..\..\containers\$(DNNFileName)\" />
   </Target>
 
-  <Target Name="PackageSkin" Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <Target Name="PackageSkin" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <!-- XML read for xpath doesn't work because we have two version numbers in the DNN file, so we need to get it and split it. -->
     
     <XmlRead Prefix="n"
@@ -86,9 +86,18 @@
       <ContainerInclude Include="**\Containers\*.ascx" />
     </ItemGroup>
 
+    
     <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="$(MSBuildProjectDirectory)\..\..\containers\$(DNNFileName)\" />
     <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="package/" />
 
+    <CreateItem Include="**\License.txt">
+      <Output TaskParameter="Include" ItemName="PackageTxtFiles" />
+    </CreateItem>
+
+    <CreateItem Include="**\ReleaseNotes.txt">
+      <Output TaskParameter="Include" ItemName="PackageTxtFiles" />
+    </CreateItem>
+    
     <CreateItem Include="$(DNNFileName).dnn">
       <Output TaskParameter="Include" ItemName="PackageManifestFiles" />
     </CreateItem>
@@ -96,6 +105,8 @@
     <Copy SourceFiles="$(MSBuildDnnBinPath)\$(AssemblyName).dll" DestinationFolder="$(MSBuildProjectDirectory)\Package\bin"/>
     <Copy SourceFiles="@(PackageManifestFiles)" DestinationFolder="$(MSBuildProjectDirectory)\Package" />
 
+    <Copy SourceFiles="@(PackageTxtFiles)" DestinationFolder="$(MSBuildProjectDirectory)\Package" />
+    
     <!-- create the INSTALL RESOURCES.ZIP file -->
     <Copy SourceFiles="@(InstallInclude)" DestinationFolder="$(MSBuildProjectDirectory)\ResourcesZip\%(RecursiveDir)" />
     <!-- copy/rename skin.min.css from the MIN folder-->
