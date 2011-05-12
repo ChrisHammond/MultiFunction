@@ -63,6 +63,8 @@
     <Content Include="Edit.ascx" />
     <Content Include="Edit.doctype.xml" />
     <Content Include="home.doctype.xml" />
+    <Content Include="i\footerbg.jpg" />
+    <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />
     <Content Include="license.txt" />
     <Content Include="min\skin.chirp.css" />

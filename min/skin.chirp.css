@@ -11,7 +11,6 @@ body
 {
 	color:#626262;
 	background-color:#ededed;
-	/*background-image:url(i/bg.jpg);*/
 	background-repeat:repeat;
 	background-attachment:scroll;
 	background-position:top left;
@@ -24,12 +23,7 @@ hr, p, ul, ol, dl, pre, blockquote, address, table, form {
     margin-bottom: 1.6em;
 }
 
-
-
-
-
 /*links */
-
 a, a:hover, a:active, a:link, a:visited
 {
 	color:#000;
@@ -96,6 +90,7 @@ a, a:hover, a:active, a:link, a:visited
 	color:#000;
 }
 
+.DNNEmptyPane{display:none;}
 
 /*skin positioning*/
 #BodyWrapper
@@ -121,8 +116,7 @@ a, a:hover, a:active, a:link, a:visited
 	width:100%;
 	background-image:url(i/headerbg_rp.png);
 	background-repeat:repeat-x;
-	min-height:200px;
-	
+	min-height:200px;	
 }
 
 #GraphicHeader .page_header
@@ -141,6 +135,19 @@ a, a:hover, a:active, a:link, a:visited
 	margin: 0 auto;
     overflow: hidden;
     width: 960px;
+}
+
+.UserLogin
+{
+	float:right;
+}
+
+.UserLogin .SkinObject, .UserLogin a.SkinObject, .UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject
+{
+	color:#fff;
+	font-weight:bold;
+	font-size:90%;
+	padding:0 0 0 15px;
 }
 
 #ContentWrapper
@@ -167,13 +174,14 @@ a, a:hover, a:active, a:link, a:visited
 
 .FeatureThreeLeft, .FeatureThreeMid, .FeatureThreeRight
 {
-	width:290px;float:left;
+	width:290px;
+	float:left;
 	padding:0 0 20px 0;
 	margin:0 15px;
 }
 
 .ContentPane
-{ width:480; float:left;margin:0 15px 0 0;}
+{ width:480px; float:left;margin:0 15px 0 0;}
 .TopPane
 { width:100%; }
 .LeftPane
@@ -194,7 +202,7 @@ a, a:hover, a:active, a:link, a:visited
 .PageFooter
 {
 	width:100%;
-	background-image:url(i/headerbg_rp.png);
+	background-image:url(i/footerbg_rp.png);
 	background-repeat:repeat-x;
 	min-height:359px;
 	max-height:359px;
@@ -218,23 +226,23 @@ a, a:hover, a:active, a:link, a:visited
 	padding:0 0 30px 0;
 	margin:0 30px 0 10px;
 	color:#d9d9d9;
-	min-height:150px;
+	min-height:250px;
 }
 
-.FooterWrapper a
+.FooterWrapper a, .FooterWrapper a.SkinObject
 {
 	color:#fff;
 }
 
 .FooterWrapper .ContainerPane ul
 {
-	margin-left:-35px;
+	margin-left:-40px;
 }
 
 .FooterWrapper .ContainerPane li
 {
 	list-style:none;
-	padding:15px 0 15px 0;
+	padding:10px 0 10px 0;
 		border-top:solid 1px #62744b;
 }
 
@@ -247,13 +255,15 @@ a, a:hover, a:active, a:link, a:visited
 {
 	width:100%;
 	float:left;
-	padding:80px 0 0 0;
+	padding:60px 0 0 0;
  }
 
-/*.FooterPicture
+/* footer picture is a DIV designed to allow you to have an overlaid image on the bottom right of the page. */
+
+/*.FooterPicture 
 {
 	display:none;
-	background-image:url(i/nh_logo.png);
+	background-image:url(i/SOMETHING.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     float: right;
@@ -340,6 +350,7 @@ ul.MenuClass img
 	color:#ececec;
 }
 
+.FooterWrapper .DNNEmptyPane{display:inherit;}
 
 /*container classes*/
 
