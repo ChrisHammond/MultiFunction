@@ -31,6 +31,21 @@
             </assembly>
           </assemblies>
         </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>MultiFunction</skinName>
+            <basePath />
+            <skinFile>
+              <name>Edit.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Home.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>TwoColumn.ascx</name>
+            </skinFile>
+          </skinFiles>
+        </component>
       </components>
     </package>
     <package name="DotNetNuke.MultiFunction.Container" type="Container" version="1.0.0">

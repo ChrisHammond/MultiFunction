@@ -82,13 +82,20 @@
       <SourceInclude Include="**\*.psd" />
     </ItemGroup>
 
+
+    <!-- used to copy the container from our project folder to the containers folder -->
     <ItemGroup>
       <ContainerInclude Include="**\Containers\*.ascx" />
     </ItemGroup>
 
-    
     <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="$(MSBuildProjectDirectory)\..\..\containers\$(DNNFileName)\" />
-    <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="package/" />
+
+    <!-- we need all the ASCX files in the root of the package in order to properly install in DNN-->
+    <ItemGroup>
+      <AscxInclude Include="**\*.ascx" />
+    </ItemGroup>
+        
+    <Copy SourceFiles="@(AscxInclude)" DestinationFolder="package/" />
 
     <CreateItem Include="**\License.txt">
       <Output TaskParameter="Include" ItemName="PackageTxtFiles" />
