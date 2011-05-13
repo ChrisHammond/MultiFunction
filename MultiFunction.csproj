@@ -62,7 +62,9 @@
     <Content Include="Containers\Main.ascx" />
     <Content Include="Edit.ascx" />
     <Content Include="Edit.doctype.xml" />
+    <Content Include="edit.jpg" />
     <Content Include="home.doctype.xml" />
+    <Content Include="home.jpg" />
     <Content Include="i\footerbg.jpg" />
     <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />
@@ -79,6 +81,7 @@
     <Content Include="i\headerbg_rp.png" />
     <Content Include="skin.css" />
     <Content Include="TwoColumn.doctype.xml" />
+    <Content Include="twocolumn.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Edit.ascx.cs">
