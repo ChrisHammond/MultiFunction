@@ -63,10 +63,5 @@
             </div>
             <div class="FooterPicture" />
         </div>
-                
-    </div>
-    <div class="Copyright">
-
-
     </div>
 </div>

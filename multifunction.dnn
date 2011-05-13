@@ -13,6 +13,7 @@
       <releaseNotes src="releasenotes.txt"></releaseNotes>
       <dependencies>
         <dependency type="CoreVersion">05.02.00</dependency>
+        <dependency type="package">WatchersNET.SkinObjects.ModuleActionsMenu</dependency>
       </dependencies>
       <components>
         <component type="ResourceFile">

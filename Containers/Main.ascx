@@ -14,8 +14,6 @@
             cssfile="ModuleMenu-Grey"
             IncludeCssFile="True" 
             contextmode="true" 
-            
-            
             /></div>
             
             <div class="Left"><dnn:TITLE ID="dnnTITLE" runat="server" class="Head Left" /></div>
