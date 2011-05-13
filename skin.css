@@ -181,13 +181,13 @@ a, a:hover, a:active, a:link, a:visited
 }
 
 .ContentPane
-{ width:480px; float:left;margin:0 15px 0 0;}
+{ width:480px; float:left;margin:0 15px 0 0;padding:0 0 15px 0;}
 .TopPane
-{ width:100%; }
+{ width:100%; padding:0 0 15px 0;}
 .LeftPane
-{width:225px;float:left;margin:0 15px 0 0;}
+{width:225px;float:left;margin:0 15px 0 0;padding:0 0 15px 0;}
 .RightPane
-{width:225px;float:right;}
+{width:225px;float:right;padding:0 0 15px 0;}
 
 .TwoColumn .ContentPane
 {
@@ -236,13 +236,13 @@ a, a:hover, a:active, a:link, a:visited
 
 .FooterWrapper .ContainerPane ul
 {
-	margin-left:-40px;
+	margin:-10px 0 0 -40px;
 }
 
 .FooterWrapper .ContainerPane li
 {
 	list-style:none;
-	padding:10px 0 10px 0;
+	padding:8px 0 8px 0;
 		border-top:solid 1px #62744b;
 }
 

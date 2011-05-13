@@ -16,7 +16,7 @@
             </div>
             <div class="MenuWrapper">
                 <dnn:NAV ID="dnnNAV" runat="server" ProviderName="DNNMenuNavigationProvider" CSSControl="MenuClass"
-                    CSSNodeRoot="MenuRootItem" CSSContainerSub="SubMenuContainer" CSSNode="SubMenuItem">
+                    CSSNodeRoot="MenuRootItem" CSSContainerSub="SubMenuContainer" CSSNode="SubMenuItem" IndicateChildren="False">
                     <customattributes>
                 <dnn:CustomAttribute value="UnorderedList" name="RenderMode" />
              </customattributes>
