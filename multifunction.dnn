@@ -39,6 +39,7 @@
             <skinFile>
               <name>Edit.ascx</name>
             </skinFile>
+
             <skinFile>
               <name>Home.ascx</name>
             </skinFile>
@@ -69,6 +70,9 @@
             <containerName>MultiFunction</containerName>
             <containerFile>
               <name>Main.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Main.jpg</name>
             </containerFile>
           </containerFiles>
         </component>
