@@ -11,9 +11,5 @@
         <b>Version 1.0.0</b><br /><br />
     </p>
     <p>This initial release of the skin and container package starts out very simply. You can use the INSTALL package to easily install the skin into production, or the SOURCE package to get the PSDs and make modifications to the package.</p>
-
-	<h2>
-		<a href="http://dnnmoduleactions.codeplex.com/">This Skin package (more importantly the Container in the skin package) requires the WatchersNet ModuleActionsMenu to be installed (version 1.3.0)</a>
-	</h2>
     
 </div>

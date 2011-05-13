@@ -5,7 +5,6 @@
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
-
 <div id="BodyWrapper">
     <div id="ControlPanel" runat="server" />
     <div id="Header" class="clearfix">
@@ -15,7 +14,7 @@
             </div>
             <div class="MenuWrapper">
                 <dnn:NAV ID="dnnNAV" runat="server" ProviderName="DNNMenuNavigationProvider" CSSControl="MenuClass"
-                    CSSNodeRoot="MenuRootItem" CSSContainerSub="SubMenuContainer" CSSNode="SubMenuItem">
+                    CSSNodeRoot="MenuRootItem" CSSContainerSub="SubMenuContainer" CSSNode="SubMenuItem" IndicateChildren="False">
                     <customattributes>
                 <dnn:CustomAttribute value="UnorderedList" name="RenderMode" />
              </customattributes>
@@ -38,15 +37,12 @@
     <div id="ContentWrapper">
         <div class="cp">
             <div id="DnnPanes">
-
                 <div id="TopPane" runat="server" class="TopPane" />
-
                 <div id="FeatureThree" class="FeatureThree clearfix">
                     <div id="FeatureThreeLeft" runat="server" class="FeatureThreeLeft" />
                     <div id="FeatureThreeMid" runat="server" class="FeatureThreeMid" />
                     <div id="FeatureThreeRight" runat="server" class="FeatureThreeRight" />
                 </div>
-
                 <div id="MainSection" class="MainSection clearfix">
                     <div id="LeftPane" runat="server" class="LeftPane" />
                     <div id="ContentPane" runat="server" class="ContentPane" />
@@ -67,7 +63,6 @@
                 <div id="FooterLeftPane" class="FooterLeftPane" runat="server" />
                 <div id="FooterMidPane" class="FooterMidPane" runat="server" />
                 <div id="FooterRightPane" class="FooterRightPane" runat="server" />
-
                 <div id="FooterCopyright" class="FooterCopyright clearfix" runat="server">
                     <dnn:copyright id="dnnCOPYRIGHT" runat="server" />
                 </div>
