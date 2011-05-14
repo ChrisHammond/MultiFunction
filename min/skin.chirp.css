@@ -298,6 +298,8 @@ ul.MenuClass
 	float:right;
 	margin:21px 10px 0;
 	width:640px;
+	border:0 none;
+	outline:none;
 }
 
 ul.MenuClass img
