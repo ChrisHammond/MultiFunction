@@ -16,7 +16,7 @@ body
 	background-position:top left;
 	margin:0 auto;
 	padding:0;
-	line-height:1.4em;
+	line-height:1.5em;
 }
 
 hr, p, ul, ol, dl, pre, blockquote, address, table, form {
@@ -83,7 +83,7 @@ a, a:hover, a:active, a:link, a:visited
 	line-height:100%;
 }
 
-.SkinObject
+.SkinObject, .CommentButton
 {
 	font-size:100%;
 	font-weight:normal;
@@ -146,6 +146,7 @@ a, a:hover, a:active, a:link, a:visited
 
 .UserLogin
 {
+	clear:both;
 	float:right;
 }
 
@@ -319,7 +320,7 @@ ul.MenuClass img
 
 .MenuRootItem.hov
 {
-	background:#25330f;
+	background:#484848;
 }
 
 .MenuRootItem a
@@ -361,6 +362,11 @@ ul.MenuClass img
 
 /*container classes*/
 
+.ContainerWrapper
+{
+	padding:0 0 10px 0;
+}
+
 .ModuleTitle_MenuItem
 {
 	border:none;
@@ -370,5 +376,7 @@ ul.MenuClass img
 {
 	padding:0 0 15px 0;
 }
+
+
 /*watchers action menu override opacity */
 .ModuleOptionsMenu-Grey li ul{opacity:.95;}
