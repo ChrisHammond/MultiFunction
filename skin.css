@@ -16,7 +16,7 @@ body
 	background-position:top left;
 	margin:0 auto;
 	padding:0;
-	line-height:1.3em;
+	line-height:1.4em;
 }
 
 hr, p, ul, ol, dl, pre, blockquote, address, table, form {
@@ -114,15 +114,22 @@ a, a:hover, a:active, a:link, a:visited
 #GraphicHeader
 {
 	width:100%;
-	background-image:url(i/headerbg_rp.png);
+	background-image:url(https://s3.amazonaws.com/dnncdn/MultiFunction/headerbg_rp.png);
 	background-repeat:repeat-x;
 	min-height:200px;	
 }
 
 #GraphicHeader .page_header
 {
-	background:url(i/headerbg.jpg) no-repeat scroll 50% 0 transparent;
+	background:url(https://s3.amazonaws.com/dnncdn/MultiFunction/headerbg.jpg) no-repeat scroll 50% 0 transparent;
 	height:200px;	
+}
+
+.HeaderGraphic
+{
+	background:url(https://s3.amazonaws.com/dnncdn/MultiFunction/header_graphic.png);
+	width:900px;
+	height:173px;
 }
 
 .MainSection
@@ -152,7 +159,7 @@ a, a:hover, a:active, a:link, a:visited
 
 #ContentWrapper
 {
-	background:#ededed url(i/contentbg_rp.png);
+	background:#ededed url(https://s3.amazonaws.com/dnncdn/MultiFunction/contentbg_rp.png);
 	background-repeat:repeat-x;
 	min-height:100px;
 	background:#;
@@ -202,7 +209,7 @@ a, a:hover, a:active, a:link, a:visited
 .PageFooter
 {
 	width:100%;
-	background-image:url(i/footerbg_rp.png);
+	background-image:url(https://s3.amazonaws.com/dnncdn/MultiFunction/footerbg_rp.png);
 	background-repeat:repeat-x;
 	min-height:359px;
 	max-height:359px;
@@ -211,7 +218,7 @@ a, a:hover, a:active, a:link, a:visited
 .FooterWrapper
 {
 	width:100%;
-	background:url(i/footerbg.jpg) no-repeat scroll 50% 0 transparent;
+	background:url(https://s3.amazonaws.com/dnncdn/MultiFunction/footerbg.jpg) no-repeat scroll 50% 0 transparent;
 	height:359px;
 }
 
@@ -243,7 +250,7 @@ a, a:hover, a:active, a:link, a:visited
 {
 	list-style:none;
 	padding:8px 0 8px 0;
-		border-top:solid 1px #62744b;
+	border-top:solid 1px #62744b;
 }
 
 .FooterWrapper li:first-child
