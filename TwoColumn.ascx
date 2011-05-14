@@ -27,8 +27,7 @@
    <div id="GraphicHeader" class="clearfix">
         <div class="page_header">
             <div class="cp">
-                &nbsp;
-                <img src="<%=SkinPath %>/i/header_graphic.png" alt="<%= PortalSettings.PortalName %>" />
+                <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%= PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
                 <div class="UserLogin">
                     <dnn:user runat="server" id="dnnUSER" />
                     <dnn:login runat="server" id="dnnLOGIN" />
