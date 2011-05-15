@@ -12,7 +12,7 @@
       <license src="license.txt"></license>
       <releaseNotes src="releasenotes.txt"></releaseNotes>
       <dependencies>
-        <dependency type="CoreVersion">05.02.00</dependency>
+        <dependency type="CoreVersion">05.04.04</dependency>
         <dependency type="package">WatchersNET.SkinObjects.ModuleActionsMenu</dependency>
       </dependencies>
       <components>
@@ -73,6 +73,9 @@
             </containerFile>
             <containerFile>
               <name>Main.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>actionmenu.png</name>
             </containerFile>
           </containerFiles>
         </component>

@@ -14,6 +14,7 @@
             cssfile="ModuleMenu-Grey"
             IncludeCssFile="True" 
             contextmode="true" 
+            MenuIcon="actionmenu.png"
             /></div>
             
             <div class="Left"><dnn:TITLE ID="dnnTITLE" runat="server" class="Head Left" /></div>

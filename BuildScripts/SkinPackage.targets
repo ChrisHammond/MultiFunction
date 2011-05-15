@@ -58,7 +58,7 @@
       <InstallInclude Include="**\*.js" />
       <InstallInclude Include="**\*.txt"  Exclude="**\obj\**;**\_ReSharper*\**;" />
       <InstallInclude Include="**\i\*.*" />
-      <InstallInclude Include="**\*.jpg" />
+      <InstallInclude Include="**\*.jpg" Exclude="**\containers\*.jpg" />
     </ItemGroup>
 
     <ItemGroup>
@@ -96,6 +96,7 @@
     <!-- we need the JPG file for the container in the root of the package in order to properly install in DNN-->
     <ItemGroup>
       <ContainerJpgInclude Include="**\containers\*.jpg" />
+      <ContainerJpgInclude Include="**\containers\*.png" />
     </ItemGroup>
 
 
@@ -168,6 +169,7 @@
       <Output TaskParameter="Include" ItemName="PackageManifestFiles" />
     </CreateItem>
 
+    <Copy SourceFiles="@(PackageTxtFiles)" DestinationFolder="$(MSBuildProjectDirectory)\Package" />
     
     <!-- create the SOURCE RESOURCES.ZIP file -->
     <Copy SourceFiles="@(SourceInclude)" DestinationFolder="$(MSBuildProjectDirectory)\ResourcesZip\%(RecursiveDir)" />
