@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="MSBuild.Community.Tasks.Targets" />
-  
-  <PropertyGroup>
-    <DNNVersionPath Condition="'$(DNNVersionPath)' == ''">dotnetnuke/packages/package/@version</DNNVersionPath>
-  </PropertyGroup>
 
-  <!-- the following code runs whenever you build in Debug mode to copy the Container files to the proper location. -->
-  <Target Name="MoveContainer" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <Target Name="PackageSkin" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <!-- XML read for xpath doesn't work because we have two version numbers in the DNN file, so we need to get it and split it. -->
+
+    <XmlRead Prefix="n"
+                    Namespace="http://schemas.microsoft.com/developer/msbuild/2003"
+                    XPath="dotnetnuke/packages/package[1]/@version"
+                    XmlFileName="$(DNNFileName).dnn">
+      <Output TaskParameter="Value" PropertyName="Version" />
+    </XmlRead>
+
+    <Message Text="Version: $(Version)" Importance="Normal"></Message>
+    
     <ItemGroup>
       <ContainerInclude Include="**\Containers\*.*" />
     </ItemGroup>
     <Copy SourceFiles="@(ContainerInclude)" DestinationFolder="$(MSBuildProjectDirectory)\..\..\containers\$(DNNFileName)\" />
-  </Target>
-
-  <Target Name="PackageSkin" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <!-- XML read for xpath doesn't work because we have two version numbers in the DNN file, so we need to get it and split it. -->
-    
-    <XmlRead Prefix="n"
-                    Namespace="http://schemas.microsoft.com/developer/msbuild/2003"
-                    XPath="substring-after($(DNNVersionPath),';')"
-                    XmlFileName="$(DNNFileName).dnn">
-      <Output TaskParameter="Value" PropertyName="DNNVersion" />
-    </XmlRead>
-
-    <PropertyGroup>
-      <Version Condition="'$(Version)' == ''">substring-before($(DNNVersion),';')</Version>      
-    </PropertyGroup>
     
     <ItemGroup>
       <DefaultExclude Include="**\.svn\**" />
