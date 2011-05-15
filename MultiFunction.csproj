@@ -122,6 +122,7 @@
     <None Include="multifunction.dnn">
       <SubType>Designer</SubType>
     </None>
+    <None Include="src_images\actionmenu.psd" />
     <None Include="src_images\footer.psd" />
     <None Include="src_images\header.psd" />
     <None Include="src_images\header_graphic.psd" />
