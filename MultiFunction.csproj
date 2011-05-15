@@ -63,11 +63,13 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Containers\Main.ascx" />
+    <Content Include="Containers\main.jpg" />
     <Content Include="Edit.ascx" />
     <Content Include="Edit.doctype.xml" />
     <Content Include="edit.jpg" />
     <Content Include="home.doctype.xml" />
     <Content Include="home.jpg" />
+    <Content Include="Containers\actionmenu.png" />
     <Content Include="i\footerbg.jpg" />
     <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />

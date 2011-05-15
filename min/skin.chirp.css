@@ -147,7 +147,8 @@ a, a:hover, a:active, a:link, a:visited
 .UserLogin
 {
 	clear:both;
-	float:right;
+	text-align:right;
+	width:100%
 }
 
 .UserLogin .SkinObject, .UserLogin a.SkinObject, .UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject
