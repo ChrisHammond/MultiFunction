@@ -266,6 +266,20 @@ a, a:hover, a:active, a:link, a:visited
 	float:left;
 	padding:60px 0 0 0;
  }
+ 
+ .FooterWrapper .Head
+{
+	color:#ececec;
+}
+
+.FooterWrapper .DNNEmptyPane{display:inherit;}
+
+.SkinLink
+{width:100%;clear:both;text-align:center;font-size:10px;color:#000;}
+.SkinLink a
+{color:#000;}
+
+ 
 
 /* footer picture is a DIV designed to allow you to have an overlaid image on the bottom right of the page. */
 
@@ -355,13 +369,6 @@ ul.MenuClass img
 {
 	padding-bottom:0px;
 }
-
-.FooterWrapper .Head
-{
-	color:#ececec;
-}
-
-.FooterWrapper .DNNEmptyPane{display:inherit;}
 
 /*container classes*/
 
