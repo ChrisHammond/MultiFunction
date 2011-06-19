@@ -79,6 +79,8 @@
       <DependentUpon>skin.chirp.css</DependentUpon>
     </Content>
     <Content Include="releasenotes.txt" />
+    <Content Include="skin.chirp.css" />
+    <Content Include="skin.min.css" />
     <Content Include="TwoColumn.ascx" />
     <Content Include="Home.ascx" />
     <Content Include="i\contentbg_rp.png" />
