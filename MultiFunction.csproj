@@ -128,7 +128,6 @@
     <None Include="src_images\footer.psd" />
     <None Include="src_images\header.psd" />
     <None Include="src_images\header_graphic.psd" />
-    <Content Include="web.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

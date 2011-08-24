@@ -390,3 +390,5 @@ ul.MenuClass img
 
 /*watchers action menu override opacity */
 .ModuleOptionsMenu-Grey li ul{opacity:.95;}
+
+.DnnModule{z-index:100;position:relative;}

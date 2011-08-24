@@ -387,6 +387,4 @@ ul.MenuClass img
 	padding:0 0 15px 0;
 }
 
-
-/*watchers action menu override opacity */
-.ModuleOptionsMenu-Grey li ul{opacity:.95;}
+.DnnModule{z-index:100;position:relative;}
