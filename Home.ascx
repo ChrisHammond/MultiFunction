@@ -27,8 +27,8 @@
             <div class="cp">
                 <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%# PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
                 <div class="UserLogin">
-                    <dnn:user runat="server" id="dnnUSER" />
-                    <dnn:login runat="server" id="dnnLOGIN" />
+                    <dnn:USER runat="server" id="dnnUSER" />
+                    <dnn:LOGIN runat="server" id="dnnLOGIN" />
                 </div>
             </div>
         </div>

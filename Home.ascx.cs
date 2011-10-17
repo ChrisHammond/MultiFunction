@@ -19,15 +19,10 @@
 //
 
 
-using System;
-
 namespace Com.Christoc.MultiFunction
 {
-    public partial class Home : DotNetNuke.UI.Skins.Skin
+    public partial class Home : SkinBase
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-          
-        }
+        
     }
 }

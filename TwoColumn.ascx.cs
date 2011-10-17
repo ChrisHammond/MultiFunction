@@ -17,16 +17,11 @@
 // CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
 // DEALINGS IN THE SOFTWARE.
 //
-using System;
-
 
 namespace Com.Christoc.MultiFunction
 {
-    public partial class TwoColumn : DotNetNuke.UI.Skins.Skin
+    public partial class TwoColumn : SkinBase
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }

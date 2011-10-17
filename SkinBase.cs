@@ -20,8 +20,23 @@
 
 namespace Com.Christoc.MultiFunction
 {
-    public partial class Edit : SkinBase
+    using System;
+    using DotNetNuke.Framework;
+    public class SkinBase : DotNetNuke.UI.Skins.Skin
     {
-        
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            RegisterJavaScript();
+        }
+
+
+        private void RegisterJavaScript()
+        {
+            jQuery.RequestRegistration();
+            //TODO: probably should check if we need to use HTTPS or not
+            Page.ClientScript.RegisterClientScriptInclude("OrangeBox", "http://s3.amazonaws.com/dnncdn/MultiFunction/ob/orangebox.min.js");
+        }
+
     }
 }
