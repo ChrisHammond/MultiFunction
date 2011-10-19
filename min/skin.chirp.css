@@ -243,19 +243,19 @@ a, a:hover, a:active, a:link, a:visited
 	color:#fff;
 }
 
-.FooterWrapper .ContainerPane ul
+.FooterWrapper .ContainerPane .DNNModuleContent ul
 {
 	margin:-10px 0 0 -40px;
 }
 
-.FooterWrapper .ContainerPane li
+.FooterWrapper .ContainerPane .DNNModuleContent li
 {
 	list-style:none;
 	padding:8px 0 8px 0;
 	border-top:solid 1px #62744b;
 }
 
-.FooterWrapper li:first-child
+.FooterWrapper .DNNModuleContent li:first-child
 {
 	border-top:none;
 }

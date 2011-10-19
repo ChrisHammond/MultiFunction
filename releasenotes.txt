@@ -8,6 +8,16 @@
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
 
+	 <p class="Owner">
+        <b>Version 01.01.01</b><br /><br />
+    </p>
+    <p>
+		<ul>
+			<li>Fixed a CSS issue with the Manage button/menu for modules in the footer </li>
+			
+		</ul>
+	</p>
+
     <p class="Owner">
         <b>Version 01.01.00</b><br /><br />
     </p>
