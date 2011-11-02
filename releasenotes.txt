@@ -9,6 +9,16 @@
     <h3>About the MultiFunction Skin and Container Package</h3>
 
 	 <p class="Owner">
+        <b>Version 01.01.02</b><br /><br />
+    </p>
+    <p>
+		<ul>
+			<li>Modified location of OrangeBox js to remove CDN delivery and include with skin, as to better ulitize the DotNetNuke 6.1.0 client dependancy framework </li>
+			
+		</ul>
+	</p>
+
+	 <p class="Owner">
         <b>Version 01.01.01</b><br /><br />
     </p>
     <p>
