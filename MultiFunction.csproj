@@ -2,6 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" />
   <PropertyGroup>
@@ -40,8 +41,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke">
+    <Reference Include="DotNetNuke, Version=6.1.0.1171, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\bin\DotNetNuke.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Client, Version=6.1.0.272, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\bin\DotNetNuke.Web.Client.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -73,6 +79,7 @@
     <Content Include="i\footerbg.jpg" />
     <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />
+    <Content Include="js\ob\orangebox.min.js" />
     <Content Include="license.txt" />
     <Content Include="min\skin.chirp.css" />
     <Content Include="min\skin.min.css">

@@ -18,10 +18,13 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
+using DotNetNuke.Web.Client.ClientResourceManagement;
+
 namespace Com.Christoc.MultiFunction
 {
     using System;
     using DotNetNuke.Framework;
+    using DotNetNuke.Web.Client;
     public class SkinBase : DotNetNuke.UI.Skins.Skin
     {
 
@@ -35,7 +38,10 @@ namespace Com.Christoc.MultiFunction
         {
             jQuery.RequestRegistration();
             //TODO: probably should check if we need to use HTTPS or not
-            Page.ClientScript.RegisterClientScriptInclude("OrangeBox", "http://s3.amazonaws.com/dnncdn/MultiFunction/ob/orangebox.min.js");
+
+            ClientResourceManager.RegisterScript(this.Page, "/portals/_default/skins/multifunction/js/ob/orangebox.min.js"); // default priority and provider
+            
+            //Page.ClientScript.RegisterClientScriptInclude("OrangeBox", "http://" + PortalSettings.PortalAlias.HTTPAlias + "/portals/_default/skins/multifunction/js/ob/orangebox.min.js");
         }
 
     }
