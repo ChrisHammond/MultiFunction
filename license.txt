@@ -2,7 +2,7 @@
     <h3>License</h3>
     <p class="Owner">
         Chris Hammond  <a href="http://www.christoc.com">http://www.christoc.com</a></br>
-        Copyright (c) 2011</br>
+        Copyright (c) 2011-2012</br>
         by Chris Hammond</br>
     </p>
    <p>
