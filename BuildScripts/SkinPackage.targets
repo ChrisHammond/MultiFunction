@@ -38,7 +38,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <InstallInclude Include="**\*.ascx" Exclude="**\Containers\*.ascx" />
+      <InstallInclude Include="**\*.ascx" Exclude="**\Containers\*.ascx;**\MobileHome.ascx" />
       <InstallInclude Include="**\*.asmx" />
       <InstallInclude Include="**\*.css" Exclude="**\min\**" />
       <InstallInclude Include="**\*.html" />
@@ -93,7 +93,7 @@
 
     <!-- we need all the ASCX files in the root of the package in order to properly install in DNN-->
     <ItemGroup>
-      <AscxInclude Include="**\*.ascx" />
+      <AscxInclude Include="**\*.ascx" Exclude="**\MobileHome.ascx" />
     </ItemGroup>
       
     
