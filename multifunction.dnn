@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="01.01.03">
+    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="01.01.04">
       <friendlyName>MultiFunction</friendlyName>
       <description>A DotNetNuke Skin using a common web layout with customizable CSS and PSDs.</description>
       <owner>

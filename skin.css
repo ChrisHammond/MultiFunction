@@ -133,6 +133,7 @@ a, a:hover, a:active, a:link, a:visited
 	background:url(i/header_graphic.png);
 	width:960px;
 	height:176px;
+	background-repeat:no-repeat;
 }
 
 .MainSection
@@ -361,6 +362,7 @@ ul.MenuClass img
 	border-radius: 5px;
 	background:#fff;
 	text-align:left;
+	z-index:101;
 }
 
 .SubMenuItem
