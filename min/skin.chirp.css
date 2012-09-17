@@ -26,6 +26,16 @@ hr, p, ul, ol, dl, pre, blockquote, address, table, form {
     margin-bottom: 1.6em;
 }
 
+/* overriding the DnnModule class to fix z-index issues */
+.DnnModule{z-index:100;position:relative;}
+
+.paneOutline
+{ 
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
 /*links */
 a, a:hover, a:active, a:link, a:visited
 {
@@ -33,36 +43,6 @@ a, a:hover, a:active, a:link, a:visited
 	text-decoration:underline;
 }
 
-
-/* float clearing for IE6 */
-* html .clearfix{
-  height: 1%;
-  overflow: visible;
-}
-
-/* float clearing for IE7 */
-*+html .clearfix{
-  min-height: 1%;
-}
-
-/* float clearing for everyone else */
-.clearfix:after{
-  clear: both;
-  content: ".";
-  display: block;
-  height: 0;
-  visibility: hidden;
-  font-size: 0;
-}
-
-.Left
-{
-	float:left;
-}
-.Right
-{
-	float:right;
-}
 
 /*dotnetnuke classes */
 
@@ -392,7 +372,7 @@ ul.MenuClass img
 	padding:0 0 15px 0;
 }
 
-.DnnModule{z-index:100;position:relative;}
+
 
 
 /*OrangeBox CSS - jQuery lightbox*/

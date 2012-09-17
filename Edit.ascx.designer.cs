@@ -13,15 +13,6 @@ namespace Com.Christoc.MultiFunction {
     public partial class Edit {
         
         /// <summary>
-        /// ControlPanel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ControlPanel;
-        
-        /// <summary>
         /// dnnLOGO control.
         /// </summary>
         /// <remarks>
