@@ -1,4 +1,4 @@
-﻿<h3>Multifunction 01.01.03</h3>
+﻿<h3>Multifunction 01.02.00</h3>
 <p class="Contributor">
     Chris Hammond <br />
     <a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
@@ -8,6 +8,24 @@
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
 
+	<p class="Owner">
+        <b>Version 01.02.00</b><br /><br />
+    </p>
+    <p>
+		<ul>
+			<li>Removed the clearfix class and is now using dnnClear that ships with DotNetNuke </li>
+			<li>Includes a popupSkin.ascx that is used for the iframe inside the DNN 6 modal windows.</li>
+			<li>Removed control panel DIV tag from all skins as it isn't used in DNN6.</li>
+			<li>Removed left/right borders from the paneOutline class in DNN so that the LAYOUT mode displays without wrapping</li>
+			<li>Had a fix in place for SubMenu CSS when you have a long sub menu</li>
+			<li>Compiled against v6.2.1, requires 6.2.1.</li>
+			<li>Upgraded project/sln to Visual Studio 2012, should still open in VS2010.</li>
+			<li>Removed the LEFT class and now use dnnLeft from default.css</li>
+			<li>There is a MobileHome skin available in the Source package, it is not complete, <strong>not recommended for use</strong>.</li>
+
+		</ul>
+	</p>
+	
 	 <p class="Owner">
         <b>Version 01.01.03</b><br /><br />
     </p>

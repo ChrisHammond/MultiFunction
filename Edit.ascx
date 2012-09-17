@@ -6,8 +6,7 @@
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
 <div id="BodyWrapper" class="Edit">
-    <div id="ControlPanel" runat="server" />
-    <div id="Header" class="clearfix">
+    <div id="Header" class="dnnClear">
         <div class="cp">
             <div id="Logo">
                 <dnn:LOGO id="dnnLOGO" runat="server" />
@@ -22,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div id="GraphicHeader" class="clearfix">
+    <div id="GraphicHeader" class="dnnClear">
         <div class="page_header">
             <div class="cp">
                 <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%# PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
@@ -37,7 +36,7 @@
         <div class="cp">
             <div id="DnnPanes">
                 <div id="TopPane" runat="server" class="TopPane" />
-                <div id="MainSection" class="MainSection clearfix">
+                <div id="MainSection" class="MainSection dnnClear">
                     <div id="ContentPane" runat="server" class="ContentPane" />
                 </div>
                 <div id="BottomPane" runat="server" class="BottomPane" />
@@ -45,25 +44,22 @@
         </div>
     </div>
     <div id="ContentFooter">
-        <div class="cp">
-            &nbsp;
-        </div>
+        <div class="cp">&nbsp;</div>
     </div>
-    <div class="PageFooter clearfix">
+    <div class="PageFooter dnnClear">
         <div class="FooterWrapper">
             <div class="cp">
                 <div id="FooterLeftPane" class="FooterLeftPane" runat="server" />
                 <div id="FooterMidPane" class="FooterMidPane" runat="server" />
                 <div id="FooterRightPane" class="FooterRightPane" runat="server" />
 
-                <div id="FooterCopyright" class="FooterCopyright clearfix" runat="server">
+                <div id="FooterCopyright" class="FooterCopyright dnnClear" runat="server">
                     <dnn:copyright id="dnnCOPYRIGHT" runat="server" />
                 </div>
 
                 <div class="SkinLink">
                     Design by <a href="http://multifunction.codeplex.com">MultiFunction Free DotNetNuke Skin</a>
                 </div>
-
             </div>
             <div class="FooterPicture" />
         </div>
