@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="01.02.01">
+    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="01.02.02">
       <friendlyName>MultiFunction</friendlyName>
       <description>A DotNetNuke Skin using a common web layout with customizable CSS and PSDs.</description>
       <owner>
@@ -12,7 +12,7 @@
       <license src="license.txt"></license>
       <releaseNotes src="releasenotes.txt"></releaseNotes>
       <dependencies>
-        <dependency type="CoreVersion">06.02.01</dependency>
+        <dependency type="CoreVersion">07.00.00</dependency>
       </dependencies>
       <components>
         <component type="ResourceFile">
@@ -48,7 +48,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="01.02.01">
+    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="01.02.02">
       <friendlyName>MultiFunction</friendlyName>
       <description>A DotNetNuke Skin using a common web layout with customizable CSS and PSDs.</description>
       <owner>
@@ -60,7 +60,7 @@
       <license src="license.txt"></license>
       <releaseNotes src="releasenotes.txt"></releaseNotes>
       <dependencies>
-        <dependency type="CoreVersion">06.02.01</dependency>
+        <dependency type="CoreVersion">07.00.00</dependency>
       </dependencies>
       <components>
         <component type="Container">
