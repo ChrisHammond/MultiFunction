@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="01.03.00.txt" />
     <Content Include="Containers\Main.ascx" />
     <Content Include="Containers\main.jpg" />
     <Content Include="Edit.ascx" />
@@ -96,12 +97,15 @@
     <Content Include="i\footerbg.jpg" />
     <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />
+    <Content Include="i\ob\buttons.png" />
+    <Content Include="i\ob\loading.gif" />
     <Content Include="js\ob\orangebox.min.js" />
     <Content Include="license.txt" />
     <Content Include="min\skin.chirp.css" />
     <Content Include="min\skin.min.css">
       <DependentUpon>skin.chirp.css</DependentUpon>
     </Content>
+    <Content Include="popupskin.ascx" />
     <Content Include="releasenotes.txt" />
     <Content Include="TwoColumn.ascx" />
     <Content Include="Home.ascx" />
@@ -119,6 +123,13 @@
     </Compile>
     <Compile Include="Edit.ascx.designer.cs">
       <DependentUpon>Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="popupskin.ascx.cs">
+      <DependentUpon>popupskin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="popupskin.ascx.designer.cs">
+      <DependentUpon>popupskin.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SkinBase.cs">
