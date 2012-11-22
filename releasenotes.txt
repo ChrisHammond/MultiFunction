@@ -9,17 +9,18 @@
     <h3>About the MultiFunction Skin and Container Package</h3>
 
 	<p class="Owner">
-        <b>Version 01.02.02</b><br /><br />
+        <b>Version 01.03.00</b><br /><br />
     </p>
     <p>
 		<ul>
-			<li>Converted Project to .NET 4.0 for DNN7 </li>
-			<li>CSS Updates for DNN 7.0</li>
-			<li>Updated OrangeBox jQuery to 3.0</li>
-			<li>Updated CSS for OrangeBox 3.0</li>
+			<li>Converted Project to .NET 4.0 for DNN 7.* </li>
+			<li>VS2012 Support </li>
+			<li>CSS Updates for DNN 7.*</li>
+			<li>Updated OrangeBox jQuery to version 3.0</li>
+			<li>Updated CSS for OrangeBox version 3.0</li>
+			<li>Requires DNN 7.0+</li>
 		</ul>
 	</p>
-
 	<p class="Owner">
         <b>Version 01.02.00</b><br /><br />
     </p>

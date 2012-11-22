@@ -50,6 +50,7 @@
       <InstallInclude Include="**\*.txt"  Exclude="**\obj\**;**\_ReSharper*\**;" />
       <InstallInclude Include="**\i\*.*" />
       <InstallInclude Include="**\*.jpg" Exclude="**\containers\*.jpg" />
+      <InstallInclude Include="**\*.png" Exclude="**\containers\*.png" />
     </ItemGroup>
 
     <ItemGroup>
@@ -73,6 +74,7 @@
       <SourceInclude Include="**\*.sln" />
       <SourceInclude Include="**\*.psd" />
       <SourceInclude Include="**\*.jpg" />
+      <SourceInclude Include="**\*.png" />
     </ItemGroup>
 
 
