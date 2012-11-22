@@ -85,7 +85,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="01.03.00.txt" />
     <Content Include="Containers\Main.ascx" />
     <Content Include="Containers\main.jpg" />
     <Content Include="Edit.ascx" />
