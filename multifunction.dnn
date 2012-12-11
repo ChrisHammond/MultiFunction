@@ -48,7 +48,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="01.03.00">
+    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="02.00.00">
       <friendlyName>MultiFunction</friendlyName>
       <description>The world's best free DotNetNuke Skin. Built using a common web layout with customizable CSS and PSDs, and even free source code.</description>
       <owner>

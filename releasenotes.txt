@@ -1,4 +1,4 @@
-﻿<h3>Multifunction 01.02.00</h3>
+﻿<h3>Multifunction 02.00.00</h3>
 <p class="Contributor">
     Chris Hammond <br />
     <a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
@@ -7,6 +7,16 @@
 <hr/>
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
+
+		<p class="Owner">
+        <b>Version 02.00.00</b><br /><br />
+    </p>
+    <p>
+		<ul>
+			<li>Converted skin to be larger, 1200px instead of 960px wide</li>
+			<li>New "Blank" container</li>
+		</ul>
+	</p>
 
 	<p class="Owner">
         <b>Version 01.03.00</b><br /><br />
