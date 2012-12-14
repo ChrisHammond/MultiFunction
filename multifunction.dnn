@@ -73,6 +73,10 @@
               <name>Main.jpg</name>
             </containerFile>
             <containerFile>
+              <name>Blank.ascx</name>
+            </containerFile>
+
+            <containerFile>
               <name>actionmenu.png</name>
             </containerFile>
           </containerFiles>
