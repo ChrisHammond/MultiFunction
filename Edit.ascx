@@ -5,6 +5,7 @@
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="BREADCRUMB" Src="~/Admin/Skins/Breadcrumb.ascx" %>
 <div id="BodyWrapper" class="Edit">
     <div id="Header" class="dnnClear">
         <div class="cp">
@@ -25,9 +26,10 @@
         <div class="page_header">
             <div class="cp">
                 <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%# PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
-                <div class="UserLogin">
-                    <dnn:user runat="server" id="dnnUSER" />
-                    <dnn:login runat="server" id="dnnLOGIN" />
+                <div class="BreadCrumb"><dnn:BREADCRUMB id="dnnBREADCRUMB" runat="server" rootlevel="0"/></div>
+                <div class="UserLogin" id="login">
+                    <dnn:user runat="server" id="dnnUSER" LegacyMode="false" />
+                    <dnn:login runat="server" id="dnnLOGIN" LegacyMode="false" />
                 </div>
             </div>
         </div>

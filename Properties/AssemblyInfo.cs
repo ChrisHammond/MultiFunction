@@ -1,7 +1,7 @@
 /*
 //
 // Chris Hammond - http://www.christoc.com
-// Copyright (c) 2011-2012
+// Copyright (c) 2011-2013
 // by Chris Hammond
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
@@ -35,7 +35,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("2011-2012 Chris Hammond")]
+[assembly: AssemblyCopyright("2011-2013 Chris Hammond")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

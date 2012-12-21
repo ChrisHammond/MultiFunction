@@ -1,6 +1,6 @@
 ﻿//
 // DotNetNuke - http://www.christoc.com
-// Copyright (c) 2011-2012
+// Copyright (c) 2011-2013
 // by Chris Hammond
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
@@ -24,7 +24,7 @@ namespace Com.Christoc.MultiFunction
 {
     using System;
     using DotNetNuke.Framework;
-    using DotNetNuke.Web.Client;
+
     public class SkinBase : DotNetNuke.UI.Skins.Skin
     {
 
@@ -33,16 +33,11 @@ namespace Com.Christoc.MultiFunction
             RegisterJavaScript();
         }
 
-
         private void RegisterJavaScript()
         {
             jQuery.RequestRegistration();
             //TODO: probably should check if we need to use HTTPS or not
-
-            ClientResourceManager.RegisterScript(this.Page, "/portals/_default/skins/multifunction/js/ob/orangebox.min.js"); // default priority and provider
-            
-            //Page.ClientScript.RegisterClientScriptInclude("OrangeBox", "http://" + PortalSettings.PortalAlias.HTTPAlias + "/portals/_default/skins/multifunction/js/ob/orangebox.min.js");
+            ClientResourceManager.RegisterScript(Page, "/portals/_default/skins/multifunction/js/ob/orangebox.min.js"); // default priority and provider
         }
-
     }
 }
