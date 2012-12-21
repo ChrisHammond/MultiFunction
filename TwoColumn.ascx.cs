@@ -1,6 +1,6 @@
 ﻿//
 // DotNetNuke - http://www.christoc.com
-// Copyright (c) 2011-2012
+// Copyright (c) 2011-2013
 // by Chris Hammond
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 

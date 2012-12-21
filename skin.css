@@ -1,11 +1,12 @@
 ﻿body,p
 {
-	font-family:Arial, Helvetica, Verdana, Geneva, Sans-Serif;
-	font-size:93%;
+	font-family:Arial, Verdana, Geneva, Sans-Serif;
+    font-size: 16px;
 	font-style:normal;
 	font-weight:400;
 	margin:.5em 0;
 }
+
 body
 {
 	color:#626262;
@@ -24,25 +25,25 @@ h1, h2, h3, h4, h5, h6 {
         ;color: #333;
     }
 h1{
-	    font-size:26px;
+	    font-size:1.625em;
     }
     h2, h2 .Head{
-	    font-size:18px;
+	    font-size:1.125em;
     }
     h3, h3 .Head{
-	    font-size:18px;
+	    font-size:1.125em;
 	    color: #666;
     }
     h4, h4 .Head{
-	    font-size:16px;
+        font-size: 1em;
 	    color: #666;
     }
     h5, h5 .Head{
-	    font-size:14px;
+	    font-size:.875px;
 	    color: #666;	
     }
     h6, h6 .Head{
-	    font-size:13px;
+	    font-size:.8125px;
 	    color: #666;
     }
 
@@ -74,7 +75,7 @@ a, a:hover, a:active, a:link, a:visited
 
 .Normal
 {
-	font-size:100%;
+	font-size:1em;
     color: #000000;
 }
 
@@ -91,7 +92,7 @@ a, a:hover, a:active, a:link, a:visited
 
 .SkinObject, .CommandButton
 {
-	font-size:100%;
+	font-size:1em;
 	font-weight:normal;
 	color:#000;
 }
@@ -116,6 +117,7 @@ a, a:hover, a:active, a:link, a:visited
 #Logo
 {
 	float:left;
+    max-width: 300px;
 }
 
 #GraphicHeader
@@ -136,7 +138,7 @@ a, a:hover, a:active, a:link, a:visited
 {
 	background:url(i/header_graphic.png);
 	width:1200px;
-	height:176px;
+	height:168px;
 	background-repeat:no-repeat;
 }
 
@@ -152,19 +154,28 @@ a, a:hover, a:active, a:link, a:visited
     width: 1200px;
 }
 
-.UserLogin
-{
-	clear:both;
-	text-align:right;
-	width:100%
+.BreadCrumb {
+    float: left;
+    max-width: 850px;
+    height: 32px;
+    padding: 7px 0 0 0;
 }
 
-.UserLogin .SkinObject, .UserLogin a.SkinObject, .UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject
+.UserLogin
+{
+	text-align:right;
+    max-width: 350px;
+    float:right;
+    height: 32px;
+}
+
+.UserLogin .SkinObject, .UserLogin a.SkinObject, .UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject,
+.BreadCrumb .SkinObject, .BreadCrumb a.SkinObject, .BreadCrumb a:hover.SkinObject,.BreadCrumb a:link.SkinObject,.BreadCrumb a:visited.SkinObject,.BreadCrumb a:active.SkinObject
 {
 	color:#fff;
-	font-weight:bold;
-	font-size:90%;
-	padding:0 0 0 15px;
+	font-weight:normal;
+	font-size:.75em;
+    padding: 7px 15px 0 0;	
 }
 
 #ContentWrapper
@@ -291,7 +302,7 @@ a, a:hover, a:active, a:link, a:visited
 .FooterWrapper .DNNEmptyPane{display:inherit;}
 
 .SkinLink
-{width:100%;clear:both;text-align:center;font-size:10px;color:#000;}
+{width:100%;clear:both;text-align:center;font-size:.625em;color:#000;}
 .SkinLink a
 {color:#000;}
 
@@ -326,7 +337,7 @@ ul.MenuClass
 	height:50px;
 	float:right;
 	margin:21px 10px 0;
-	width:940px;
+	max-width:900px;
 	border:0 none;
 	outline:none;
 }
@@ -422,7 +433,7 @@ ul.MenuClass img
 
     table.tableDefault th, 
     table.tableDefault td {
-	    font-size: 12px;
+	    font-size: .75px;
 	    padding: 8px; 
     }
 
@@ -453,7 +464,7 @@ ul.MenuClass img
         -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1) ;
         box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1) ;
         color:#666;
-        font-size:13px;
+        font-size:.8125em;
 	}
 
 /*------------------------------------------------*/
@@ -466,9 +477,9 @@ ul.MenuClass img
 	    padding: 12px 20px;
 	    margin-bottom: 5px;
 	    
-	    background-color: #3B96B6;
-	    background: -moz-linear-gradient(top, #1aa0c9 0, #1aa0c9);
-	    background: -webkit-gradient(linear, left top, left bottom, from(#1aa0c9), to(#1aa0c9));
+	    background-color: #b4b4b4;
+	    background: -moz-linear-gradient(top, #d0d0d0 0, #d0d0d0);
+	    background: -webkit-gradient(linear, left top, left bottom, from(#d0d0d0), to(#d0d0d0));
 	    -moz-border-radius: 0;
 	    -webkit-border-radius: 0;
 	    border-radius: 0;
@@ -477,8 +488,8 @@ ul.MenuClass img
 	    -webkit-box-shadow: 0 1px 3px rgba(240,240,240,0.5), inset 0 0 0 rgba(15,177,217,0);
 	    box-shadow: 0 1px 3px rgba(240,240,240,0.5), inset 0 0 0 rgba(15,177,217,0);
 	    
-	    font-family: Arial, Helvetica, sans-serif;
-	    font-size: 12px;
+	    font-family: Arial, sans-serif;
+	    font-size: .75em;
 	    font-weight: bold;
 	    line-height: 1;
 	    text-align: center;
@@ -504,8 +515,8 @@ ul.MenuClass img
 	    -webkit-box-shadow: 0 1px 3px rgba(240,240,240,0.5), inset 0 0 0 rgba(15,177,217,0);
 	    box-shadow: 0 1px 3px rgba(240,240,240,0.5), inset 0 0 0 rgba(15,177,217,0);
 	    
-	    font-family: Arial, Helvetica, sans-serif;
-	    font-size: 12px;
+	    font-family: Arial, sans-serif;
+	    font-size: .75em;
 	    font-weight: bold;
 	    line-height: 1;
 	    text-align: center;
@@ -520,9 +531,9 @@ ul.MenuClass img
 	    padding: 9px 32px 9px 22px;
 	    margin-bottom: 5px;
 	   
-	    background: #484848 url('images/arrow.png') no-repeat 87% center;
-	    background: url('images/arrow.png') no-repeat 87% center, -moz-linear-gradient(top, #3d3d3d 0, #3d3d3d);
-	    background: url('images/arrow.png') no-repeat 87% center, -webkit-gradient(linear, left top, left bottom, from(#3d3d3d), to(#3d3d3d));
+	    background: #484848 url('i/arrow.png') no-repeat 87% center;
+	    background: url('i/arrow.png') no-repeat 87% center, -moz-linear-gradient(top, #3d3d3d 0, #3d3d3d);
+	    background: url('i/arrow.png') no-repeat 87% center, -webkit-gradient(linear, left top, left bottom, from(#3d3d3d), to(#3d3d3d));
 	    -moz-border-radius: 0;
 	    -webkit-border-radius: 0;
 	    border-radius: 0;
@@ -531,8 +542,8 @@ ul.MenuClass img
 	    -webkit-box-shadow: 0 0 0 rgba(000,000,000,0), inset 0 0 0 rgba(255,255,255,0);
 	    box-shadow: 0 0 0 rgba(000,000,000,0), inset 0 0 0 rgba(255,255,255,0);
 	    
-	    font-family: Arial, Helvetica, sans-serif;
-	    font-size: 12px;
+	    font-family: Arial, sans-serif;
+        font-size: .75em;
 	    font-weight: bold;
 	    line-height: 1;
 	    color: #ffffff;
@@ -556,11 +567,11 @@ ul.MenuClass img
     a.altButton:hover {
 	    cursor: pointer;
 	    cursor: hand;
-	    background:#D00 url('images/arrow.png') no-repeat 87% center;
+	    background:#D00 url('i/arrow.png') no-repeat 87% center;
     }
  
 
-    /*------------------------------------------------*/
+/*------------------------------------------------*/
 /* IMAGE STYLES */
 /*------------------------------------------------*/
     img {  border: 0;  }
@@ -591,7 +602,7 @@ ul.MenuClass img
     -------------------------------------*/
     .imgPolaroid { 
 	    color: #a6a6a6;
-	    font-size: 12px;
+	    font-size: .75em;
 	    text-align: left;
 	    padding: 13px 13px 17px 13px;
 	    background-color: #fff;
@@ -601,6 +612,129 @@ ul.MenuClass img
     .imgPolaroid  img {
         margin-bottom: 12px;
     }
+
+
+/* event viewer CSS fix for wraapping text*/
+
+.Edit .dnnLogViewer fieldset {
+    max-width: 1200px;
+}
+
+/*------------------------------------------------*/
+/* LOGIN */
+/*------------------------------------------------*/
+    #login{	float:right; }
+	
+	#login .registerGroup, 
+	#login .registerGroup *, 
+	#login .loginGroup, 
+	#login .loginGroup * {	display:block; }	
+
+	#login .registerGroup,
+	#login .loginGroup {
+		float:left;
+		padding:0;
+		margin:0;
+	} 
+	
+	#login .registerGroup li:first-child:hover {border-left:#222;}
+	
+	/* Register Group Styles */
+	#login .registerGroup li { 	float:left; }
+	#login .registerGroup .buttonGroup {margin-right:0;}
+	
+	#login .registerGroup a,
+	#login .loginGroup a{
+		display:block;
+		position:relative;
+		height:25px;
+		min-width:12px;
+		padding: 7px 15px 0 15px;
+		 
+		color: #ffffff;
+	    font-size: .75em;
+		vertical-align: middle;
+	}
+	
+	#login .registerGroup a:hover,
+	#login .loginGroup a:hover {
+	    background: #333;
+		color:#ddd;
+	}
+	#login .registerGroup a:active,
+	#login .loginGroup a:active {
+		color:#fff;
+		text-shadow: 0 -1px 0 #ffffff;
+	}
+	
+	#login .registerGroup a:hover,
+	#login .loginGroup a:hover { text-decoration:none; }
+	
+	#login .registerGroup a strong,
+	#login .loginGroup a strong {
+		display:block;
+		position:absolute;
+		left:0; top:0;
+		width:100%;
+		overflow:hidden;		
+		font-size: 0em;
+		text-indent:-9999px;
+	}
+	
+	#login .userMessages a,
+	#login .userNotifications a { background-color: transparent; }	
+	
+	#login .userMessages strong { 
+		height: 100%;
+		background: url('i/icon_message.png') no-repeat center center;
+    }
+	
+	#login .userNotifications { border-right: 1px solid #CCC; }
+	
+	#login .userNotifications strong { 
+		height: 100%;
+		background: url('i/icon_notification.png') no-repeat center center;
+	}
+	
+	#login .registerGroup a span {
+		display:inline-block;
+		position:absolute;
+		right:2px; top:-9px;
+		min-width:7px;
+		margin-right:3px;
+		text-align:center;
+		font-size:.6875em;
+		color:#fff;
+	}
+	
+	#login .registerGroup .userProfileImg a{
+		min-width:25px;
+		min-height: 32px;
+		padding:0;
+		background:none;
+		
+	}
+	
+	#login .registerGroup a img{
+		height:32px; width:32px;
+		background:#ffffff;
+		
+	}
+	
+	/* Login Group Styles */
+	#login .loginGroup { border-right: 0 solid #CCC;} 
+	#login .loginGroup a {color:#ffffff; }
+	
+	/* Number of message next to the message icon*/
+	#login .userMessages  a  span,
+	#login .userNotifications   a  span	{ 
+		display: inline-block; 
+		margin-top: 9px; 
+		margin-right: 0px; 
+		background-color: transparent;
+		
+		font-size: .625em;
+	}
 
 /*container classes*/
 
@@ -673,7 +807,7 @@ ul.MenuClass img
 #ob_caption {
 	color:#333;
 	background-color:#fff;
-	font-size:small;
+	font-size:.75em;
 }
 #ob_caption p {
 	padding:0;

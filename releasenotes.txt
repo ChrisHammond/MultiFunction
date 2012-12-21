@@ -8,20 +8,21 @@
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
 
-		<p class="Owner">
-        <b>Version 02.00.00</b><br /><br />
-    </p>
     <p>
+        <b>Version 02.00.00</b>
 		<ul>
 			<li>Converted skin to be larger, 1200px instead of 960px wide</li>
 			<li>New "Blank" container</li>
+			<li>CSS Fixes for the Event Viewer word wrap in DNN 7.0</li>
+			<li>Resized Header_Graphic.psd to be 169px height</li>
+			<li>Utilizing DNN6/7 USER/LOGIN controls</li>
+			<li>Added breadcrumb control</li>
+			<li>Removed background color from Body on the popup skin</li>
 		</ul>
 	</p>
 
-	<p class="Owner">
-        <b>Version 01.03.00</b><br /><br />
-    </p>
     <p>
+	<b>Version 01.03.00</b>
 		<ul>
 			<li>Converted Project to .NET 4.0 for DNN 7.* </li>
 			<li>VS2012 Support </li>
@@ -31,10 +32,8 @@
 			<li>Requires DNN 7.0+</li>
 		</ul>
 	</p>
-	<p class="Owner">
-        <b>Version 01.02.00</b><br /><br />
-    </p>
     <p>
+	    <b>Version 01.02.00</b>
 		<ul>
 			<li>Removed the clearfix class and is now using dnnClear that ships with DotNetNuke </li>
 			<li>Includes a popupSkin.ascx that is used for the iframe inside the DNN 6 modal windows.</li>
@@ -49,10 +48,8 @@
 		</ul>
 	</p>
 	
-	 <p class="Owner">
-        <b>Version 01.01.03</b><br /><br />
-    </p>
     <p>
+	    <b>Version 01.01.03</b>
 		<ul>
 			<li>Added some CSS for H1/2/3/4 to fix DotNetNuke 6.1.4 issues. </li>
 			<li>Compiled against v6.1.3, requires 6.1.3.</li>
@@ -60,51 +57,45 @@
 		</ul>
 	</p>
 
-	 <p class="Owner">
-        <b>Version 01.01.02</b><br /><br />
-    </p>
     <p>
+	    <b>Version 01.01.02</b>
 		<ul>
 			<li>Modified location of OrangeBox js to remove CDN delivery and include with skin, as to better ulitize the DotNetNuke 6.1.0 client dependancy framework </li>
 			
 		</ul>
 	</p>
 
-	 <p class="Owner">
-        <b>Version 01.01.01</b><br /><br />
-    </p>
     <p>
+		<b>Version 01.01.01</b>
 		<ul>
 			<li>Fixed a CSS issue with the Manage button/menu for modules in the footer </li>
 			
 		</ul>
 	</p>
-
-    <p class="Owner">
-        <b>Version 01.01.00</b><br /><br />
-    </p>
+	
     <p>
+		<b>Version 01.01.00</b>
 		<ul>
 			<li>Includes OrangeBox jQuery plugin for lightbox effects. <a href="http://multifunction.codeplex.com/wikipage?title=Lightbox%20Documentation&referringTitle=Documentation">See Documentation for Use</a></li>
 			<li>Configured for DotNetNuke 6.0.2+ only</li>
 		</ul>
 	</p>
 
-
-    <p class="Owner">
-        <b>Version 01.00.01</b><br /><br />
-    </p>
     <p>
+		<b>Version 01.00.01</b>
 		<ul>
 			<li>Has fix for z-index issues on DnnModule class</li>
 			<li>Removed WatchersNet Module Action Menu</li>
 			<li>Configured for DotNetNuke 6.0+ only</li>
 		</ul>
 	</p>
-
-    <p class="Owner">
-        <b>Version 01.00.00</b><br /><br />
-    </p>
-    <p>This initial release of the skin and container package starts out very simply. You can use the INSTALL package to easily install the skin into production, or the SOURCE package to get the PSDs and make modifications to the package.</p>
+	
+    <p>
+		<b>Version 01.00.00</b>
+		<ul>
+			<li>This initial release of the skin and container package starts out very simply.</li>
+			<li>You can use the INSTALL package to easily install the skin into production, or the SOURCE package to get the PSDs and make modifications to the package.</li>
+		</ul>
+	</p>
     
 </div>

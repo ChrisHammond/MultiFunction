@@ -1,30 +1,31 @@
-﻿body,p{font-family:Arial,Helvetica,Verdana,Geneva,Sans-Serif;font-size:93%;font-style:normal;font-weight:400;margin:.5em 0}
+﻿body,p{font-family:Arial,Verdana,Geneva,Sans-Serif;font-size:16px;font-style:normal;font-weight:400;margin:.5em 0}
 body{color:#626262;background-color:#ededed;background-repeat:repeat;background-attachment:scroll;background-position:top left;margin:0 auto;padding:0;line-height:1.5em}
 h1,h2,h3,h4,h5,h6{line-height:1;margin:0 0 10px 0;color:#333}
-h1{font-size:26px}
-h2,h2 .Head{font-size:18px}
-h3,h3 .Head{font-size:18px;color:#666}
-h4,h4 .Head{font-size:16px;color:#666}
-h5,h5 .Head{font-size:14px;color:#666}
-h6,h6 .Head{font-size:13px;color:#666}
+h1{font-size:1.625em}
+h2,h2 .Head{font-size:1.125em}
+h3,h3 .Head{font-size:1.125em;color:#666}
+h4,h4 .Head{font-size:1em;color:#666}
+h5,h5 .Head{font-size:.875px;color:#666}
+h6,h6 .Head{font-size:.8125px;color:#666}
 hr,p,ul,ol,dl,pre,blockquote,address,table,form{margin-bottom:1.6em}
 .DnnModule{z-index:100;position:relative}
 .paneOutline{border-top:dotted 1px #000;border-bottom:dotted 1px #000;border-right:0;border-left:0}
 a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
-.Normal{font-size:100%;color:#000}
+.Normal{font-size:1em;color:#000}
 .Head{color:#656565;font-size:2.0em;font-weight:400;padding:0 0 5px;line-height:100%;margin-bottom:0;border-bottom:0}
-.SkinObject,.CommandButton{font-size:100%;font-weight:normal;color:#000}
+.SkinObject,.CommandButton{font-size:1em;font-weight:normal;color:#000}
 .DNNEmptyPane{display:none}
 #BodyWrapper{width:100%;margin:0 auto;height:auto!important;min-height:100%}
 #Header{width:100%}
-#Logo{float:left}
+#Logo{float:left;max-width:300px}
 #GraphicHeader{width:100%;background-image:url(i/headerbg_rp.png);background-repeat:repeat-x;min-height:200px}
 #GraphicHeader .page_header{background:url(i/headerbg.jpg) no-repeat scroll 50% 0 transparent;height:200px}
-.HeaderGraphic{background:url(i/header_graphic.png);width:1200px;height:176px;background-repeat:no-repeat}
+.HeaderGraphic{background:url(i/header_graphic.png);width:1200px;height:168px;background-repeat:no-repeat}
 .MainSection{width:100%}
 .cp{margin:0 auto;width:1200px}
-.UserLogin{clear:both;text-align:right;width:100%}
-.UserLogin .SkinObject,.UserLogin a.SkinObject,.UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject{color:#fff;font-weight:bold;font-size:90%;padding:0 0 0 15px}
+.BreadCrumb{float:left;max-width:850px;height:32px;padding:7px 0 0 0}
+.UserLogin{text-align:right;max-width:350px;float:right;height:32px}
+.UserLogin .SkinObject,.UserLogin a.SkinObject,.UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject,.BreadCrumb .SkinObject,.BreadCrumb a.SkinObject,.BreadCrumb a:hover.SkinObject,.BreadCrumb a:link.SkinObject,.BreadCrumb a:visited.SkinObject,.BreadCrumb a:active.SkinObject{color:#fff;font-weight:normal;font-size:.75em;padding:7px 15px 0 0}
 #ContentWrapper{background:#ededed url(i/contentbg_rp.png);background-repeat:repeat-x;min-height:100px;padding-top:50px}
 #ContentFooter{background:#d3d3d3;border-top:solid 1px #c0c0c0;height:75px;margin-bottom:10px}
 .FeatureThree{width:100%}
@@ -48,11 +49,11 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 .FooterCopyright{width:100%;float:left;padding:60px 0 0 0}
 .FooterWrapper .Head{color:#ececec}
 .FooterWrapper .DNNEmptyPane{display:inherit}
-.SkinLink{width:100%;clear:both;text-align:center;font-size:10px;color:#000}
+.SkinLink{width:100%;clear:both;text-align:center;font-size:.625em;color:#000}
 .SkinLink a{color:#000}
 .MenuWrapper{width:100%;text-align:right}
 ul.MenuClass{padding-left:0}
-.MenuClass{height:50px;float:right;margin:21px 10px 0;width:640px;border:0 none;outline:0}
+.MenuClass{height:50px;float:right;margin:21px 10px 0;max-width:900px;border:0 none;outline:0}
 ul.MenuClass img{display:none}
 .MenuRootItem{padding:11px 5px;webkit-border-radius:15px;-moz-border-radius:5px;border-radius:5px}
 .MenuRootItem.sel{border:1px solid #1a2409}
@@ -68,26 +69,48 @@ ol ol li{list-style-type:lower-roman}
 ol ol ol li{list-style-type:lower-alpha}
 ol ul li{list-style-type:lower-roman}
 table.tableDefault{width:100%;border-collapse:collapse;border-spacing:0;background-color:transparent}
-table.tableDefault th,table.tableDefault td{font-size:12px;padding:8px}
+table.tableDefault th,table.tableDefault td{font-size:.75px;padding:8px}
 table.tableDefault th{font-weight:bold;text-align:left;border-bottom:solid 2px #aaa;background-color:#d7d7d7}
 table.tableDefault td{border-bottom:solid 1px #d9d9d9}
 table.tableDefault tr:nth-child(odd){background:transparent}
 table.tableDefault tr:nth-child(even){background:#e3e4e6}
 .tableDefault tbody tr:hover td{color:#111}
-input[type="text"],select,textarea,input[type="email"],input[type="search"],input[type="password"]{padding:9px;margin-bottom:20px;background:#f3f3f3;border:1px solid #bfbfbf;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.8),inset 0 1px 2px 0 rgba(0,0,0,0.1);box-shadow:0 1px 0 0 rgba(255,255,255,0.8),inset 0 1px 2px 0 rgba(0,0,0,0.1);color:#666;font-size:13px}
-button.primaryButton,a.primaryButton{display:inline-block;padding:12px 20px;margin-bottom:5px;background-color:#3B96B6;background:-moz-linear-gradient(top,#1aa0c9 0,#1aa0c9);background:-webkit-gradient(linear,left top,left bottom,from(#1aa0c9),to(#1aa0c9));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #fff;-moz-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);-webkit-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;line-height:1;text-align:center;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
-button.secondaryButton,a.secondaryButton{display:inline-block;padding:12px 20px;margin-bottom:5px;background-color:#666;background:-moz-linear-gradient(top,#8a8a8a 0,#8a8a8a);background:-webkit-gradient(linear,left top,left bottom,from(#8a8a8a),to(#8a8a8a));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #fff;-moz-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);-webkit-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;line-height:1;text-align:center;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
-button.altButton,a.altButton{display:inline-block;padding:9px 32px 9px 22px;margin-bottom:5px;background:#484848 url('images/arrow.png') no-repeat 87% center;background:url('images/arrow.png') no-repeat 87% center,-moz-linear-gradient(top,#3d3d3d 0,#3d3d3d);background:url('images/arrow.png') no-repeat 87% center,-webkit-gradient(linear,left top,left bottom,from(#3d3d3d),to(#3d3d3d));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #ffbf00;-moz-box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);-webkit-box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;line-height:1;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
+input[type="text"],select,textarea,input[type="email"],input[type="search"],input[type="password"]{padding:9px;margin-bottom:20px;background:#f3f3f3;border:1px solid #bfbfbf;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.8),inset 0 1px 2px 0 rgba(0,0,0,0.1);box-shadow:0 1px 0 0 rgba(255,255,255,0.8),inset 0 1px 2px 0 rgba(0,0,0,0.1);color:#666;font-size:.8125em}
+button.primaryButton,a.primaryButton{display:inline-block;padding:12px 20px;margin-bottom:5px;background-color:#b4b4b4;background:-moz-linear-gradient(top,#d0d0d0 0,#d0d0d0);background:-webkit-gradient(linear,left top,left bottom,from(#d0d0d0),to(#d0d0d0));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #fff;-moz-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);-webkit-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);font-family:Arial,sans-serif;font-size:.75em;font-weight:bold;line-height:1;text-align:center;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
+button.secondaryButton,a.secondaryButton{display:inline-block;padding:12px 20px;margin-bottom:5px;background-color:#666;background:-moz-linear-gradient(top,#8a8a8a 0,#8a8a8a);background:-webkit-gradient(linear,left top,left bottom,from(#8a8a8a),to(#8a8a8a));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #fff;-moz-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);-webkit-box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);box-shadow:0 1px 3px rgba(240,240,240,0.5),inset 0 0 0 rgba(15,177,217,0);font-family:Arial,sans-serif;font-size:.75em;font-weight:bold;line-height:1;text-align:center;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
+button.altButton,a.altButton{display:inline-block;padding:9px 32px 9px 22px;margin-bottom:5px;background:#484848 url('i/arrow.png') no-repeat 87% center;background:url('i/arrow.png') no-repeat 87% center,-moz-linear-gradient(top,#3d3d3d 0,#3d3d3d);background:url('i/arrow.png') no-repeat 87% center,-webkit-gradient(linear,left top,left bottom,from(#3d3d3d),to(#3d3d3d));-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:0 solid #ffbf00;-moz-box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);-webkit-box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 rgba(000,000,000,0),inset 0 0 0 rgba(255,255,255,0);font-family:Arial,sans-serif;font-size:.75em;font-weight:bold;line-height:1;color:#fff;text-shadow:0 0 0 rgba(000,000,000,0),0 0 0 rgba(255,255,255,0)}
 a.dnnPrimaryAction{color:#efefef}
 a.dnnSecondaryAction{color:#555}
 button.primaryButton:hover,button.secondaryButton:hover,a.primaryButton:hover,a.secondaryButton:hover{cursor:pointer;cursor:hand;background-image:none;background-color:#D00}
-button.altButton:hover,a.altButton:hover{cursor:pointer;cursor:hand;background:#D00 url('images/arrow.png') no-repeat 87% center}
+button.altButton:hover,a.altButton:hover{cursor:pointer;cursor:hand;background:#D00 url('i/arrow.png') no-repeat 87% center}
 img{border:0}
 .imgLeft{float:left;margin-right:30px;margin-bottom:30px}
 .imgRight{float:right;margin-left:30px;margin-bottom:30px}
 .imgBorder{border:solid 3px #fff}
-.imgPolaroid{color:#a6a6a6;font-size:12px;text-align:left;padding:13px 13px 17px 13px;background-color:#fff;box-shadow:0 1px 2px #ccc}
+.imgPolaroid{color:#a6a6a6;font-size:.75em;text-align:left;padding:13px 13px 17px 13px;background-color:#fff;box-shadow:0 1px 2px #ccc}
 .imgPolaroid img{margin-bottom:12px}
+.Edit .dnnLogViewer fieldset{max-width:1200px}
+#login{float:right}
+#login .registerGroup,#login .registerGroup *,#login .loginGroup,#login .loginGroup *{display:block}
+#login .registerGroup,#login .loginGroup{float:left;padding:0;margin:0}
+#login .registerGroup li:first-child:hover{border-left:#222}
+#login .registerGroup li{float:left}
+#login .registerGroup .buttonGroup{margin-right:0}
+#login .registerGroup a,#login .loginGroup a{display:block;position:relative;height:25px;min-width:12px;padding:7px 15px 0 15px;color:#fff;font-size:.75em;vertical-align:middle}
+#login .registerGroup a:hover,#login .loginGroup a:hover{background:#333;color:#ddd}
+#login .registerGroup a:active,#login .loginGroup a:active{color:#fff;text-shadow:0 -1px 0 #fff}
+#login .registerGroup a:hover,#login .loginGroup a:hover{text-decoration:none}
+#login .registerGroup a strong,#login .loginGroup a strong{display:block;position:absolute;left:0;top:0;width:100%;overflow:hidden;font-size:0;text-indent:-9999px}
+#login .userMessages a,#login .userNotifications a{background-color:transparent}
+#login .userMessages strong{height:100%;background:url('i/icon_message.png') no-repeat center center}
+#login .userNotifications{border-right:1px solid #CCC}
+#login .userNotifications strong{height:100%;background:url('i/icon_notification.png') no-repeat center center}
+#login .registerGroup a span{display:inline-block;position:absolute;right:2px;top:-9px;min-width:7px;margin-right:3px;text-align:center;font-size:.6875em;color:#fff}
+#login .registerGroup .userProfileImg a{min-width:25px;min-height:32px;padding:0;background:0}
+#login .registerGroup a img{height:32px;width:32px;background:#fff}
+#login .loginGroup{border-right:0 solid #CCC}
+#login .loginGroup a{color:#fff}
+#login .userMessages a span,#login .userNotifications a span{display:inline-block;margin-top:9px;margin-right:0;background-color:transparent;font-size:.625em}
 .ContainerWrapper{padding:0 0 10px 0}
 .ModuleTitle_MenuItem{border:0}
 .ContainerHeader{padding:0 0 5px 0}
@@ -96,7 +119,7 @@ img{border:0}
 #ob_float{float:left;height:50%;min-width:100%}
 #ob_content{clear:both;cursor:default;position:relative;margin:22px auto 44px;background-color:#fff;border:0 solid #fff;-webkit-box-shadow:0 0 8px 2px #222;-moz-box-shadow:0 0 8px 2px #222;line-height:0;display:none;z-index:1003}
 #ob_iframe{-webkit-overflow-scrolling:touch;overflow:auto;font-size:0}
-#ob_caption{color:#333;background-color:#fff;font-size:small}
+#ob_caption{color:#333;background-color:#fff;font-size:.75em}
 #ob_caption p{padding:0;margin:10px;cursor:auto;line-height:1.625em}
 #ob_video_wrapper{background:#000}
 #ob_image{display:block;margin:0 auto}
