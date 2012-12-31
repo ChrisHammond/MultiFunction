@@ -7,11 +7,11 @@ h3,h3 .Head{font-size:1.125em;color:#666}
 h4,h4 .Head{font-size:1em;color:#666}
 h5,h5 .Head{font-size:.875px;color:#666}
 h6,h6 .Head{font-size:.8125px;color:#666}
-hr,p,ul,ol,dl,pre,blockquote,address,table,form{margin-bottom:1.6em}
+hr,p,ul,ol,dl,pre,blockquote,address,table,form{margin-bottom:1em}
 .DnnModule{z-index:100;position:relative}
 .paneOutline{border-top:dotted 1px #000;border-bottom:dotted 1px #000;border-right:0;border-left:0}
 a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
-.Normal{font-size:1em;color:#000}
+.Normal,.NormalDisabled,.NormalDeleted{font-size:1em;color:#000;line-height:1.5em}
 .Head{color:#656565;font-size:2.0em;font-weight:400;padding:0 0 5px;line-height:100%;margin-bottom:0;border-bottom:0}
 .SkinObject,.CommandButton{font-size:1em;font-weight:normal;color:#000}
 .DNNEmptyPane{display:none}

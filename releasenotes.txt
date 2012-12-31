@@ -7,10 +7,17 @@
 <hr/>
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
+<p>
+        <b>Version 02.00.01</b>
+		<ul>
+			<li><h1>WARNING You will need to resize your images for V2.0 (2.0.1) as we have changed the width of the skin. It is recommended that you do this in test, before production.</h1></li>
+			<li>Fixed Line-Height CSS for Normal class</li>
+			<li>Fixed Margin-Bottom CSS for a number of HTML objects (p)</li>
+		</ul>
+	</p>
 	<p>
         <b>Version 02.00.00</b>
 		<ul>
-			<li><h1>WARNING YOU WILL NEED TO RESIZE YOUR IMAGES AND CSS FOR THIS NEW SKIN, PLEASE TEST BEFORE USING IN PRODUCTION</h1></li>
 			<li>Converted skin to be larger, 1200px instead of 960px wide</li>
 			<li>New "Blank" container</li>
 			<li>CSS Fixes for the Event Viewer word wrap in DNN 7.0</li>
