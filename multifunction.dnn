@@ -75,7 +75,9 @@
             <containerFile>
               <name>Blank.ascx</name>
             </containerFile>
-
+            <containerFile>
+              <name>Blank.jpg</name>
+            </containerFile>
             <containerFile>
               <name>actionmenu.png</name>
             </containerFile>

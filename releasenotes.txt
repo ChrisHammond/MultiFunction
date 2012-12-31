@@ -7,8 +7,7 @@
 <hr/>
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
-
-    <p>
+	<p>
         <b>Version 02.00.00</b>
 		<ul>
 			<li><h1>WARNING YOU WILL NEED TO RESIZE YOUR IMAGES AND CSS FOR THIS NEW SKIN, PLEASE TEST BEFORE USING IN PRODUCTION</h1></li>
@@ -20,6 +19,8 @@
 			<li>Added breadcrumb control</li>
 			<li>Removed background color from Body on the popup skin</li>
 			<li>Replaced default DNN7 Blue button color with greyscale color for multifunction</li>
+			<li>Fixed an issue in the footer with UL margins</li>
+			<li>Updated thumbnails for all skins and containers</li>
 		</ul>
 	</p>
 
@@ -100,4 +101,5 @@
 		</ul>
 	</p>
     
+	<h1>WARNING: Version 2.0 changes the width of the page and panes, you should test this version of the skin before using it in production so you can make the necessary Content and Image changes before using in production.</h1>
 </div>
