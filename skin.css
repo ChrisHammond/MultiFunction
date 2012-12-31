@@ -63,7 +63,7 @@ h6, h6 .Head
 
 hr, p, ul, ol, dl, pre, blockquote, address, table, form
 {
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
 }
 
 /* overriding the DnnModule class to fix z-index issues */
@@ -91,10 +91,11 @@ a, a:hover, a:active, a:link, a:visited
 
 /*dotnetnuke classes */
 
-.Normal
+.Normal,.NormalDisabled, .NormalDeleted
 {
     font-size: 1em;
     color: #000000;
+    line-height: 1.5em;
 }
 
 .Head
