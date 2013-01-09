@@ -164,7 +164,7 @@ a, a:hover, a:active, a:link, a:visited
     background-repeat: no-repeat;
 }
 
-.MainSection
+.MainSection,.MainSectionRight
 {
     width: 100%;
 }
@@ -264,6 +264,18 @@ a, a:hover, a:active, a:link, a:visited
 {
     width: 870px;
     margin: 0 0 0 15px;
+}
+
+.TwoColumn .LeftContentPane
+{
+    width: 870px;
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.TwoColumn .RightPane {
+    float: right;
+    padding: 0;
 }
 
 .Edit .ContentPane
