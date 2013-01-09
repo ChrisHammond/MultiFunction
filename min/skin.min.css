@@ -21,7 +21,7 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 #GraphicHeader{width:100%;background-image:url(i/headerbg_rp.png);background-repeat:repeat-x;min-height:200px}
 #GraphicHeader .page_header{background:url(i/headerbg.jpg) no-repeat scroll 50% 0 transparent;height:200px}
 .HeaderGraphic{background:url(i/header_graphic.png);width:1200px;height:168px;background-repeat:no-repeat}
-.MainSection{width:100%}
+.MainSection,.MainSectionRight{width:100%}
 .cp{margin:0 auto;width:1200px}
 .BreadCrumb{float:left;max-width:850px;height:27px;padding:5px 0 0 0}
 .UserLogin{text-align:right;max-width:350px;float:right;height:32px}
@@ -35,6 +35,8 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 .LeftPane{width:300px;float:left;margin:0 15px 0 0;padding:0 0 15px 0}
 .RightPane{width:300px;float:right;padding:0 0 15px 0}
 .TwoColumn .ContentPane{width:870px;margin:0 0 0 15px}
+.TwoColumn .LeftContentPane{width:870px;margin:0 15px 0 0;float:left}
+.TwoColumn .RightPane{float:right;padding:0}
 .Edit .ContentPane{width:100%}
 .popupSkin .ContentPane{width:100%}
 .PageFooter{width:100%;background-image:url(i/footerbg_rp.png);background-repeat:repeat-x;min-height:359px;max-height:359px}

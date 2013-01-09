@@ -42,6 +42,11 @@
                     <div id="LeftPane" runat="server" class="LeftPane" />
                     <div id="ContentPane" runat="server" class="ContentPane" />
                 </div>
+                <div id="MainSectionRight" class="MainSectionRight  dnnClear">
+                    <div id="LeftContentPane" runat="server" class="LeftContentPane" />
+                    <div id="RightPane" runat="server" class="RightPane" />
+                </div>
+
                 <div id="BottomPane" runat="server" class="BottomPane" />
             </div>
         </div>

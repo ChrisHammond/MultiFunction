@@ -94,6 +94,24 @@ namespace Com.Christoc.MultiFunction {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ContentPane;
         
         /// <summary>
+        /// LeftContentPane control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl LeftContentPane;
+        
+        /// <summary>
+        /// RightPane control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl RightPane;
+        
+        /// <summary>
         /// BottomPane control.
         /// </summary>
         /// <remarks>
