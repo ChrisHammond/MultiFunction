@@ -63,7 +63,7 @@
                     Design by <a href="http://multifunction.codeplex.com">MultiFunction Free DotNetNuke Skin</a>
                 </div>
             </div>
-            <div class="FooterPicture" />
+            <div class="FooterPicture"></div>
         </div>
     </div>
 </div>
