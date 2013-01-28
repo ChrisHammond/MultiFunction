@@ -11,6 +11,7 @@
         <b>Version 02.05.00</b>
 		<ul>
 			<li>Changed doctype to HTML5 for all skin layouts.</li>
+			<li>Fixed invalid HTML for the FooterPicture div.</li>
 		</ul>
 	</p>
 
