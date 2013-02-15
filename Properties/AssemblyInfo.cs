@@ -1,8 +1,8 @@
 /*
 //
-// Chris Hammond - http://www.christoc.com
+// MultiFunction - http://www.christoc.com
 // Copyright (c) 2011-2013
-// by Chris Hammond
+// by Christoc.com
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
 // documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
@@ -31,11 +31,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 //
 [assembly: AssemblyTitle("MultiFunction")]
-[assembly: AssemblyDescription("A DotNetNuke Skin")]
+[assembly: AssemblyDescription("A Free DotNetNuke Skin")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("2011-2013 Chris Hammond")]
+[assembly: AssemblyCompany("Christoc.com")]
+[assembly: AssemblyProduct("MultiFunction Skin")]
+[assembly: AssemblyCopyright("2011-2013 Christoc.com")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

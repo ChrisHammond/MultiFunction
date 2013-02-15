@@ -15,7 +15,7 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 .Head{color:#656565;font-size:2.0em;font-weight:400;padding:0 0 5px;line-height:100%;margin-bottom:0;border-bottom:0}
 .SkinObject,.CommandButton{font-size:1em;font-weight:normal;color:#000}
 .DNNEmptyPane{display:none}
-#BodyWrapper{width:100%;margin:0 auto;height:auto!important;min-height:100%}
+#BodyWrapper{min-width:1200px;width:100%;margin:0 auto;height:auto!important;min-height:100%}
 #Header{width:100%}
 #Logo{float:left;max-width:300px}
 #GraphicHeader{width:100%;background-image:url(i/headerbg_rp.png);background-repeat:repeat-x;min-height:200px}
@@ -24,7 +24,7 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 .MainSection,.MainSectionRight{width:100%}
 .cp{margin:0 auto;width:1200px}
 .BreadCrumb{float:left;max-width:850px;height:27px;padding:5px 0 0 0}
-.UserLogin{text-align:right;max-width:350px;float:right;height:32px}
+.UserLogin{text-align:right;width:350px;max-width:350px;float:right;height:32px}
 .UserLogin .SkinObject,.UserLogin a.SkinObject,.UserLogin a:hover.SkinObject,.UserLogin a:link.SkinObject,.UserLogin a:visited.SkinObject,.UserLogin a:active.SkinObject,.BreadCrumb .SkinObject,.BreadCrumb a.SkinObject,.BreadCrumb a:hover.SkinObject,.BreadCrumb a:link.SkinObject,.BreadCrumb a:visited.SkinObject,.BreadCrumb a:active.SkinObject{color:#fff;font-weight:normal;font-size:.75em;padding:7px 15px 0 0}
 #ContentWrapper{background:#ededed url(i/contentbg_rp.png);background-repeat:repeat-x;min-height:100px;padding-top:50px}
 #ContentFooter{background:#d3d3d3;border-top:solid 1px #c0c0c0;height:75px;margin-bottom:10px}
@@ -94,7 +94,7 @@ img{border:0}
 .Edit .dnnLogViewer fieldset{max-width:1200px}
 #login{float:right}
 #login .registerGroup,#login .registerGroup *,#login .loginGroup,#login .loginGroup *{display:block}
-#login .registerGroup,#login .loginGroup{float:left;padding:0;margin:0}
+#login .registerGroup,#login .loginGroup{float:right;padding:0;margin:0}
 #login .registerGroup li:first-child:hover{border-left:#222}
 #login .registerGroup li{float:left}
 #login .registerGroup .buttonGroup{margin-right:0}
