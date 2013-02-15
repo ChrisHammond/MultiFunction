@@ -1,9 +1,8 @@
 ﻿<div class="License">
     <h3>License</h3>
     <p class="Owner">
-        Chris Hammond  <a href="http://www.christoc.com">http://www.christoc.com</a></br>
+        <a href="http://www.christoc.com">Christoc.com</a></br>
         Copyright (c) 2011-2013</br>
-        by Chris Hammond</br>
     </p>
    <p>
        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 

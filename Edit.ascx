@@ -28,8 +28,8 @@
                 <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%# PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
                 <div class="BreadCrumb"><dnn:BREADCRUMB id="dnnBREADCRUMB" runat="server" rootlevel="0"/></div>
                 <div class="UserLogin" id="login">
-                    <dnn:user runat="server" id="dnnUSER" LegacyMode="false" />
                     <dnn:login runat="server" id="dnnLOGIN" LegacyMode="false" />
+                    <dnn:user runat="server" id="dnnUSER" LegacyMode="false" />
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="SkinLink">
-                    Design by <a href="http://multifunction.codeplex.com">MultiFunction Free DotNetNuke Skin</a>
+                    <a href="http://www.christoc.com/projects/multifunction">MultiFunction Free DotNetNuke Skin by Christoc.com</a>
                 </div>
             </div>
             <div class="FooterPicture"></div>
