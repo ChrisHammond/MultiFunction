@@ -131,6 +131,10 @@ a, a:hover, a:active, a:link, a:visited
     min-height: 100%;
 }
 
+.popupSkin #BodyWrapper {
+    width: 100%;
+}
+
 
 #Header
 {
