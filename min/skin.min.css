@@ -16,7 +16,7 @@ a,a:hover,a:active,a:link,a:visited{color:#000;text-decoration:underline}
 .SkinObject,.CommandButton{font-size:1em;font-weight:normal;color:#000}
 .DNNEmptyPane{display:none}
 #BodyWrapper{min-width:1200px;width:100%;margin:0 auto;height:auto!important;min-height:100%}
-.popupSkin #BodyWrapper{width:100%}
+#BodyWrapper.popupSkin{min-width:100px;width:100%}
 #Header{width:100%}
 #Logo{float:left;max-width:300px}
 #GraphicHeader{width:100%;background-image:url(i/headerbg_rp.png);background-repeat:repeat-x;min-height:200px}
