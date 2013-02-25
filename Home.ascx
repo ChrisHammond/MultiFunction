@@ -67,7 +67,7 @@
                     <dnn:copyright id="dnnCOPYRIGHT" runat="server" />
                 </div>
                 <div class="SkinLink">
-                    <a href="http://www.christoc.com/projects/multifunction">MultiFunction Free DotNetNuke Skin by Christoc.com</a>
+                    <a href="http://www.christoc.com/projects/multifunctionskin">MultiFunction Free DotNetNuke Skin by Christoc.com</a>
                 </div>
             </div>
             <div class="FooterPicture"></div>
