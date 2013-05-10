@@ -28,8 +28,8 @@
                 <img id="imgHeaderGraphic" src="~/images/spacer.gif" alt="<%# PortalSettings.PortalName %>" class="HeaderGraphic" runat="server" />
                 <div class="BreadCrumb"><dnn:BREADCRUMB id="dnnBREADCRUMB" runat="server" rootlevel="0"/></div>
                 <div class="UserLogin" id="login">
-                    <dnn:user runat="server" id="dnnUSER" LegacyMode="false" />
                     <dnn:login runat="server" id="dnnLOGIN" LegacyMode="false" />
+                    <dnn:user runat="server" id="dnnUSER" LegacyMode="false" />
                 </div>
             </div>
         </div>
