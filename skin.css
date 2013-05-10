@@ -1184,3 +1184,15 @@ ul.dnnAdminTabNav
 {
     white-space: normal;
 }
+
+/* DNN category/tag control */
+
+.ArticleWrapper .horizontal {
+    vertical-align: middle;
+}
+.horizontal ul.categories li, .horizontal ul.tags li {
+    float:left;
+}
+.horizontal ul.categories {
+    margin:0;
+}
