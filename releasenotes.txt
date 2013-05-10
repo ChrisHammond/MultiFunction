@@ -14,6 +14,7 @@
 			<li>Fixed invalid HTML for the FooterPicture div.</li>
 			<li>Changed copyright statements and license to Christoc.com.</li>
 			<li>Fixed CSS issue with .UserLogin that was causing the Register and Login links to not display.</li>
+			<li>Fixed CSS issue with the DNN Categories/Tags listing in Horizontal mode (list items are floating now instead of going vertical)</li>
 		</ul>
 	</p>
 

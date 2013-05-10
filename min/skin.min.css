@@ -147,3 +147,6 @@ ul.dnnAdminTabNav{height:44px}
 #ob_share{margin-left:8px}
 #ob_title a,#ob_title a:hover,#ob_title a:active,#ob_title a:link{color:#fff}
 .dnnLabel+span .License,.dnnLabel+span .Contributor{white-space:normal}
+.ArticleWrapper .horizontal{vertical-align:middle}
+.horizontal ul.categories li,.horizontal ul.tags li{float:left}
+.horizontal ul.categories{margin:0}
