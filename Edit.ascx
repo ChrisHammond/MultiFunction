@@ -63,7 +63,7 @@
                     <a href="http://www.christoc.com/projects/multifunctionskin">MultiFunction Free DotNetNuke Skin by Christoc.com</a>
                 </div>
             </div>
-            <div class="FooterPicture"></div>
+            <div class="FooterPicture"><!-- nothing here, but feel free to style with CSS --></div>
         </div>
     </div>
 </div>

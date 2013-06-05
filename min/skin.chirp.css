@@ -769,7 +769,7 @@ img
     #login .registerGroup,
     #login .loginGroup
     {
-        float: left;
+        float: right;
         padding: 0;
         margin: 0;
     }

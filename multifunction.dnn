@@ -1,6 +1,6 @@
 ﻿<dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="02.05.00">
+    <package name="DotNetNuke.MultiFunction.Skin" type="Skin" version="02.05.01">
       <friendlyName>MultiFunction</friendlyName>
       <description>The world's best free DotNetNuke Skin. Built using a common web layout with customizable CSS and PSDs, and even free source code.</description>
       <owner>
@@ -48,7 +48,7 @@
         </component>
       </components>
     </package>
-    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="02.05.00">
+    <package name="DotNetNuke.MultiFunction.Container" type="Container" version="02.05.01">
       <friendlyName>MultiFunction</friendlyName>
       <description>The world's best free DotNetNuke Skin. Built using a common web layout with customizable CSS and PSDs, and even free source code.</description>
       <owner>
