@@ -1,4 +1,4 @@
-﻿<h3>Multifunction 02.05.00</h3>
+﻿<h3>Multifunction 02.05.01</h3>
 <p class="Contributor">
     Chris Hammond <br />
     <a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
@@ -7,6 +7,13 @@
 <hr/>
 <div class="License">
     <h3>About the MultiFunction Skin and Container Package</h3>
+
+	<p>
+        <b>Version 02.05.01</b>
+		<ul>
+			<li>Fixed invalid HTML for the FooterPicture div in two column skin.</li>
+		</ul>
+	</p>
 	<p>
         <b>Version 02.05.00</b>
 		<ul>

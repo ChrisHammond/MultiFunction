@@ -95,7 +95,7 @@ img{border:0}
 .Edit .dnnLogViewer fieldset{max-width:1200px}
 #login{float:right}
 #login .registerGroup,#login .registerGroup *,#login .loginGroup,#login .loginGroup *{display:block}
-#login .registerGroup,#login .loginGroup{float:left;padding:0;margin:0}
+#login .registerGroup,#login .loginGroup{float:right;padding:0;margin:0}
 #login .registerGroup li:first-child:hover{border-left:#222}
 #login .registerGroup li{float:left}
 #login .registerGroup .buttonGroup{margin-right:0}

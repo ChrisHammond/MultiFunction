@@ -67,11 +67,11 @@
                     <dnn:copyright id="dnnCOPYRIGHT" runat="server" />
                 </div>
                 <div class="SkinLink">
-                    Design by <a href="http://multifunction.codeplex.com">MultiFunction Free DotNetNuke Skin</a>
+                    <a href="http://www.christoc.com/projects/multifunctionskin">MultiFunction Free DotNetNuke Skin by Christoc.com</a>
                 </div>
 
             </div>
-            <div class="FooterPicture" />
+            <div class="FooterPicture"><!-- nothing here, but feel free to style with CSS --></div>
         </div>
     </div>
 </div>
