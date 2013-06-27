@@ -14,6 +14,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -93,9 +95,12 @@
     <Content Include="home.doctype.xml" />
     <Content Include="home.jpg" />
     <Content Include="Containers\actionmenu.png" />
+    <Content Include="i\arrow.png" />
     <Content Include="i\footerbg.jpg" />
     <Content Include="i\footerbg_rp.png" />
     <Content Include="i\header_graphic.png" />
+    <Content Include="i\icon_message.png" />
+    <Content Include="i\icon_notification.png" />
     <Content Include="i\ob\buttons.png" />
     <Content Include="i\ob\loading.gif" />
     <Content Include="js\ob\orangebox.min.js" />
@@ -159,6 +164,7 @@
     <None Include="multifunction.dnn">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="packages.config" />
     <None Include="src_images\actionmenu.psd" />
     <None Include="src_images\footer.psd" />
     <None Include="src_images\header.psd" />
@@ -198,4 +204,5 @@
   <Target Name="AfterBuild" DependsOnTargets="MoveContainer" />
   <Target Name="AfterBuild" DependsOnTargets="PackageSkin">
   </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
 </Project>
